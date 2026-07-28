@@ -1,8 +1,11 @@
 @echo off
-title Deploy to Netlify
+title Deploy to Netlify via GitHub
 echo ============================================
-echo    BATRA TECHNOLOGIES - Netlify Deploy
+echo    BATRA TECHNOLOGIES - Deploy to Netlify
 echo ============================================
+echo.
+echo    This updates your tunnel URL and pushes
+echo    to GitHub. Netlify auto-deploys on push.
 echo.
 
 :: Step 1: Get tunnel URL
@@ -16,42 +19,30 @@ echo    Tunnel URL: %TUNNEL_URL%
 echo.
 
 :: Step 2: Update netlify.toml with real tunnel URL
-echo [2/4] Updating netlify.toml with tunnel URL...
+echo [1/3] Updating netlify.toml with tunnel URL...
 cd /d "E:\ronit\bca\e commerce"
-
-:: Use PowerShell to replace TUNNEL_URL in netlify.toml
 powershell -Command "(Get-Content netlify.toml) -replace 'https://TUNNEL_URL', '%TUNNEL_URL%' | Set-Content netlify.toml"
 echo    Done!
 echo.
 
-:: Step 3: Build frontend
-echo [3/4] Building Next.js frontend...
-set NEXT_PUBLIC_API_URL=
-call "C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\npm.cmd" run build
+:: Step 3: Commit and push to GitHub
+echo [2/3] Committing and pushing to GitHub...
+git add netlify.toml
+git commit -m "Update tunnel URL to %TUNNEL_URL%"
+git push origin main
 if %errorlevel% neq 0 (
     echo.
-    echo BUILD FAILED!
+    echo PUSH FAILED! Check errors above.
     pause
     exit /b 1
 )
-echo    Build complete!
+echo    Done! Pushed to GitHub.
 echo.
 
-:: Step 4: Deploy to Netlify
-echo [4/4] Deploying to Netlify...
-echo    (If this is first time, it will open browser to login)
-echo.
-"C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\npx.cmd" netlify deploy --prod --dir=out
-if %errorlevel% neq 0 (
-    echo.
-    echo DEPLOY FAILED! Check errors above.
-    pause
-    exit /b 1
-)
-echo.
 echo ============================================
-echo    DEPLOYED SUCCESSFULLY!
-echo    Your site is live on Netlify!
+echo    DEPLOY TRIGGERED!
+echo    Netlify will auto-deploy in ~1 minute.
+echo    Check: https://batratechnologies.netlify.app
 echo ============================================
 echo.
 pause
