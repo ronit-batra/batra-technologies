@@ -4,7 +4,6 @@ module.exports = {
       name: "batra-backend",
       cwd: "E:\\ronit\\bca\\e commerce\\server",
       script: "src/index.js",
-      node_args: "--env=production",
       env: {
         NODE_ENV: "production"
       },
