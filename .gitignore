@@ -12,3 +12,6 @@ server/.env
 server/.env.production
 server/node_modules
 dev-errors.txt
+
+# Local Netlify folder
+.netlify

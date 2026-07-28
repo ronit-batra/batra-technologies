@@ -10,9 +10,3 @@
   to = "https://TUNNEL_URL/api/:splat"
   status = 200
   force = true
-
-# SPA fallback — all other routes serve index.html for client-side routing
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
