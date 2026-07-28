@@ -1,0 +1,3832 @@
+[
+  {
+    "id": "ip-x",
+    "name": "iPhone X",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 29999,
+    "originalPrice": 64900,
+    "description": "The original Face ID iPhone with edge-to-edge OLED display and revolutionary gesture navigation.",
+    "features": [
+      "A11 Bionic",
+      "5.8\" OLED",
+      "Face ID",
+      "Dual 12MP Camera",
+      "Glass & Stainless Steel"
+    ],
+    "specifications": {
+      "Display": "5.8\" Super Retina OLED",
+      "Chip": "A11 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "64GB / 256GB",
+      "Battery": "2716mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1200,
+    "inStock": true
+  },
+  {
+    "id": "ip-xr",
+    "name": "iPhone XR",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 24999,
+    "originalPrice": 76900,
+    "description": "Colorful LCD iPhone with Face ID and the powerful A12 Bionic chip.",
+    "features": [
+      "A12 Bionic",
+      "6.1\" LCD",
+      "Face ID",
+      "Single 12MP Camera",
+      "6 Colors"
+    ],
+    "specifications": {
+      "Display": "6.1\" Liquid Retina LCD",
+      "Chip": "A12 Bionic",
+      "Camera": "12MP Single",
+      "Storage": "64GB / 128GB / 256GB",
+      "Battery": "2942mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 980,
+    "inStock": true
+  },
+  {
+    "id": "ip-xs",
+    "name": "iPhone XS",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 34999,
+    "originalPrice": 99900,
+    "description": "Premium stainless steel iPhone with dual-camera system and Super Retina OLED.",
+    "features": [
+      "A12 Bionic",
+      "5.8\" OLED",
+      "Dual 12MP",
+      "IP68",
+      "Gold Option"
+    ],
+    "specifications": {
+      "Display": "5.8\" Super Retina OLED",
+      "Chip": "A12 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "64GB / 256GB / 512GB",
+      "Battery": "2658mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 750,
+    "inStock": true
+  },
+  {
+    "id": "ip-xsmax",
+    "name": "iPhone XS Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 39999,
+    "originalPrice": 109900,
+    "description": "The biggest iPhone display ever at launch. Premium stainless steel with OLED.",
+    "features": [
+      "A12 Bionic",
+      "6.5\" OLED",
+      "Dual 12MP",
+      "IP68",
+      "512GB Option"
+    ],
+    "specifications": {
+      "Display": "6.5\" Super Retina OLED",
+      "Chip": "A12 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "64GB / 256GB / 512GB",
+      "Battery": "3174mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 680,
+    "inStock": true
+  },
+  {
+    "id": "ip-11",
+    "name": "iPhone 11",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 32999,
+    "originalPrice": 64900,
+    "description": "Dual-camera system with Night mode. The most popular iPhone of its generation.",
+    "features": [
+      "A13 Bionic",
+      "6.1\" LCD",
+      "Dual 12MP",
+      "Night Mode",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.1\" Liquid Retina LCD",
+      "Chip": "A13 Bionic",
+      "Camera": "12MP Ultra Wide + Wide",
+      "Storage": "64GB / 128GB / 256GB",
+      "Battery": "3110mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 3400,
+    "inStock": true,
+    "badge": "Classic"
+  },
+  {
+    "id": "ip-11pro",
+    "name": "iPhone 11 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 47999,
+    "originalPrice": 99900,
+    "description": "First iPhone with 'Pro' moniker. Triple-camera system and Super Retina XDR display.",
+    "features": [
+      "A13 Bionic",
+      "5.8\" OLED",
+      "Triple 12MP",
+      "Night Mode",
+      "18W Fast Charging"
+    ],
+    "specifications": {
+      "Display": "5.8\" Super Retina XDR",
+      "Chip": "A13 Bionic",
+      "Camera": "12MP Triple",
+      "Storage": "64GB / 256GB / 512GB",
+      "Battery": "3046mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "ip-11promax",
+    "name": "iPhone 11 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 54999,
+    "originalPrice": 109900,
+    "description": "The largest and most powerful iPhone of 2019 with all-day battery life.",
+    "features": [
+      "A13 Bionic",
+      "6.5\" OLED",
+      "Triple 12MP",
+      "Night Mode",
+      "All-Day Battery"
+    ],
+    "specifications": {
+      "Display": "6.5\" Super Retina XDR",
+      "Chip": "A13 Bionic",
+      "Camera": "12MP Triple",
+      "Storage": "64GB / 256GB / 512GB",
+      "Battery": "3969mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 2800,
+    "inStock": true
+  },
+  {
+    "id": "ip-12mini",
+    "name": "iPhone 12 Mini",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 37999,
+    "originalPrice": 72900,
+    "description": "The smallest, lightest 5G iPhone. Compact power in a 5.4-inch form factor.",
+    "features": [
+      "A14 Bionic",
+      "5.4\" OLED",
+      "5G",
+      "Dual 12MP",
+      "Ceramic Shield"
+    ],
+    "specifications": {
+      "Display": "5.4\" Super Retina XDR",
+      "Chip": "A14 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "64GB / 128GB / 256GB",
+      "Battery": "2227mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1500,
+    "inStock": true
+  },
+  {
+    "id": "ip-12",
+    "name": "iPhone 12",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 41999,
+    "originalPrice": 79900,
+    "description": "Flat-edge design revolution with A14 Bionic, 5G, and Ceramic Shield front cover.",
+    "features": [
+      "A14 Bionic",
+      "6.1\" OLED",
+      "5G",
+      "Dual 12MP",
+      "Ceramic Shield"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR",
+      "Chip": "A14 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "64GB / 128GB / 256GB",
+      "Battery": "2815mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 4200,
+    "inStock": true
+  },
+  {
+    "id": "ip-12pro",
+    "name": "iPhone 12 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 54999,
+    "originalPrice": 119900,
+    "description": "Pro-grade camera with LiDAR Scanner, Ceramic Shield, and surgical-grade stainless steel.",
+    "features": [
+      "A14 Bionic",
+      "6.1\" OLED",
+      "LiDAR",
+      "Triple 12MP",
+      "ProRAW"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR",
+      "Chip": "A14 Bionic",
+      "Camera": "12MP Triple + LiDAR",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "2815mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2600,
+    "inStock": true
+  },
+  {
+    "id": "ip-12promax",
+    "name": "iPhone 12 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 62999,
+    "originalPrice": 129900,
+    "description": "Largest iPhone display with best camera system, Sensor-shift stabilization, and LiDAR.",
+    "features": [
+      "A14 Bionic",
+      "6.7\" OLED",
+      "LiDAR",
+      "Sensor-Shift OIS",
+      "ProRAW"
+    ],
+    "specifications": {
+      "Display": "6.7\" Super Retina XDR",
+      "Chip": "A14 Bionic",
+      "Camera": "12MP Triple + LiDAR",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "3687mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 3100,
+    "inStock": true
+  },
+  {
+    "id": "ip-13mini",
+    "name": "iPhone 13 Mini",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 44999,
+    "originalPrice": 64900,
+    "description": "Compact powerhouse with A15 Bionic, improved cameras, and all-day battery.",
+    "features": [
+      "A15 Bionic",
+      "5.4\" OLED",
+      "5G",
+      "Dual 12MP",
+      "Cinematic Mode"
+    ],
+    "specifications": {
+      "Display": "5.4\" Super Retina XDR",
+      "Chip": "A15 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "2438mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1200,
+    "inStock": true
+  },
+  {
+    "id": "ip-13",
+    "name": "iPhone 13",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 52999,
+    "originalPrice": 79900,
+    "description": "Diagonal camera design, A15 Bionic, Cinematic Mode, and improved battery life.",
+    "features": [
+      "A15 Bionic",
+      "6.1\" OLED",
+      "Cinematic Mode",
+      "Photographic Styles",
+      "5G"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR",
+      "Chip": "A15 Bionic",
+      "Camera": "12MP Diagonal Dual",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "3227mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 5100,
+    "inStock": true
+  },
+  {
+    "id": "ip-13pro",
+    "name": "iPhone 13 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 69999,
+    "originalPrice": 119900,
+    "description": "ProMotion 120Hz display, macro photography, and all-day battery life.",
+    "features": [
+      "A15 Bionic",
+      "6.1\" 120Hz OLED",
+      "ProMotion",
+      "Macro Photography",
+      "Cinematic Mode"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR 120Hz",
+      "Chip": "A15 Bionic (5-core GPU)",
+      "Camera": "12MP Triple",
+      "Storage": "128GB / 256GB / 512GB / 1TB",
+      "Battery": "3095mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 3400,
+    "inStock": true
+  },
+  {
+    "id": "ip-13promax",
+    "name": "iPhone 13 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 79999,
+    "originalPrice": 129900,
+    "description": "The biggest and best iPhone of 2021 with ProMotion, all-day battery, and pro cameras.",
+    "features": [
+      "A15 Bionic",
+      "6.7\" 120Hz OLED",
+      "ProMotion",
+      "Macro Photography",
+      "All-Day Battery"
+    ],
+    "specifications": {
+      "Display": "6.7\" Super Retina XDR 120Hz",
+      "Chip": "A15 Bionic (5-core GPU)",
+      "Camera": "12MP Triple",
+      "Storage": "128GB / 256GB / 512GB / 1TB",
+      "Battery": "4352mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 4200,
+    "inStock": true,
+    "badge": "Top Rated"
+  },
+  {
+    "id": "ip-14",
+    "name": "iPhone 14",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 57999,
+    "originalPrice": 79900,
+    "description": "Crash Detection, Emergency SOS via satellite, and a 12MP TrueDepth front camera.",
+    "features": [
+      "A15 Bionic",
+      "6.1\" OLED",
+      "Crash Detection",
+      "Emergency SOS",
+      "12MP Front Camera"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR",
+      "Chip": "A15 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "3279mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 3800,
+    "inStock": true
+  },
+  {
+    "id": "ip-14plus",
+    "name": "iPhone 14 Plus",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 62999,
+    "originalPrice": 89900,
+    "description": "Big screen. Big battery. The most affordable way to get a 6.7-inch iPhone.",
+    "features": [
+      "A15 Bionic",
+      "6.7\" OLED",
+      "Crash Detection",
+      "All-Day Battery",
+      "Emergency SOS"
+    ],
+    "specifications": {
+      "Display": "6.7\" Super Retina XDR",
+      "Chip": "A15 Bionic",
+      "Camera": "12MP Dual",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "4325mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1565849904461-04a58adcd73c?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1800,
+    "inStock": true
+  },
+  {
+    "id": "ip-14pro",
+    "name": "iPhone 14 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 84999,
+    "originalPrice": 129900,
+    "description": "Dynamic Island, Always-On Display, and a groundbreaking 48MP camera system.",
+    "features": [
+      "A16 Bionic",
+      "6.1\" 120Hz OLED",
+      "Dynamic Island",
+      "48MP Camera",
+      "Always-On Display"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR 120Hz",
+      "Chip": "A16 Bionic",
+      "Camera": "48MP + 12MP + 12MP",
+      "Storage": "128GB / 256GB / 512GB / 1TB",
+      "Battery": "3200mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 5600,
+    "inStock": true,
+    "badge": "Best Seller"
+  },
+  {
+    "id": "ip-14promax",
+    "name": "iPhone 14 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 94999,
+    "originalPrice": 139900,
+    "description": "The ultimate iPhone with Dynamic Island, 48MP camera, and all-day battery.",
+    "features": [
+      "A16 Bionic",
+      "6.7\" 120Hz OLED",
+      "Dynamic Island",
+      "48MP Camera",
+      "Always-On Display"
+    ],
+    "specifications": {
+      "Display": "6.7\" Super Retina XDR 120Hz",
+      "Chip": "A16 Bionic",
+      "Camera": "48MP + 12MP + 12MP",
+      "Storage": "128GB / 256GB / 512GB / 1TB",
+      "Battery": "4323mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 6200,
+    "inStock": true,
+    "badge": "Editor's Choice"
+  },
+  {
+    "id": "ip-15",
+    "name": "iPhone 15",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 64999,
+    "originalPrice": 79900,
+    "description": "USB-C arrives on iPhone. Dynamic Island, 48MP camera, and color-infused glass back.",
+    "features": [
+      "A16 Bionic",
+      "6.1\" OLED",
+      "USB-C",
+      "48MP Camera",
+      "Dynamic Island"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR",
+      "Chip": "A16 Bionic",
+      "Camera": "48MP + 12MP",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "3349mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 4100,
+    "inStock": true
+  },
+  {
+    "id": "ip-15plus",
+    "name": "iPhone 15 Plus",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 72999,
+    "originalPrice": 89900,
+    "description": "Big screen with USB-C, Dynamic Island, and an incredible battery life.",
+    "features": [
+      "A16 Bionic",
+      "6.7\" OLED",
+      "USB-C",
+      "48MP Camera",
+      "Dynamic Island"
+    ],
+    "specifications": {
+      "Display": "6.7\" Super Retina XDR",
+      "Chip": "A16 Bionic",
+      "Camera": "48MP + 12MP",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "4383mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2200,
+    "inStock": true
+  },
+  {
+    "id": "ip-15pro",
+    "name": "iPhone 15 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 99999,
+    "originalPrice": 134900,
+    "description": "Titanium design. A17 Pro chip. USB-C with USB 3 speeds. Customizable Action Button.",
+    "features": [
+      "A17 Pro",
+      "6.1\" 120Hz OLED",
+      "Titanium",
+      "USB-C USB 3",
+      "Action Button"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR 120Hz",
+      "Chip": "A17 Pro",
+      "Camera": "48MP + 12MP + 12MP",
+      "Storage": "128GB / 256GB / 512GB / 1TB",
+      "Battery": "3274mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1696446701796-da612256986e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 5800,
+    "inStock": true,
+    "badge": "Popular"
+  },
+  {
+    "id": "ip-15promax",
+    "name": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 119999,
+    "originalPrice": 159900,
+    "description": "The most powerful iPhone with titanium design, tetraprism 5x zoom, and A17 Pro.",
+    "features": [
+      "A17 Pro",
+      "6.7\" 120Hz OLED",
+      "Titanium",
+      "5x Tetraprism Zoom",
+      "Action Button"
+    ],
+    "specifications": {
+      "Display": "6.7\" Super Retina XDR 120Hz",
+      "Chip": "A17 Pro",
+      "Camera": "48MP + 12MP 5x + 12MP",
+      "Storage": "256GB / 512GB / 1TB",
+      "Battery": "4422mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1709763823519-80d2a4fb1e94?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 7200,
+    "inStock": true,
+    "badge": "Best Seller"
+  },
+  {
+    "id": "ip-16",
+    "name": "iPhone 16",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 74999,
+    "originalPrice": 79900,
+    "description": "Apple Intelligence, Camera Control button, A18 chip, and a vertical camera layout.",
+    "features": [
+      "A18",
+      "6.1\" OLED",
+      "Apple Intelligence",
+      "Camera Control",
+      "Vertical Dual 48MP"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR",
+      "Chip": "A18",
+      "Camera": "48MP Fusion + 12MP Ultra Wide",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "3561mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1696446701796-da612256986e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 3500,
+    "inStock": true
+  },
+  {
+    "id": "ip-16plus",
+    "name": "iPhone 16 Plus",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 82999,
+    "originalPrice": 89900,
+    "description": "The biggest standard iPhone with Apple Intelligence and the longest battery life.",
+    "features": [
+      "A18",
+      "6.7\" OLED",
+      "Apple Intelligence",
+      "Camera Control",
+      "All-Day Battery"
+    ],
+    "specifications": {
+      "Display": "6.7\" Super Retina XDR",
+      "Chip": "A18",
+      "Camera": "48MP Fusion + 12MP Ultra Wide",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "4674mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1696446701796-da612256986e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1632631277752-f07d354f0edd?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 1900,
+    "inStock": true
+  },
+  {
+    "id": "ip-16pro",
+    "name": "iPhone 16 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 109999,
+    "originalPrice": 119900,
+    "description": "A18 Pro, Camera Control, 48MP Fusion camera, and a stunning 6.3-inch ProMotion display.",
+    "features": [
+      "A18 Pro",
+      "6.3\" 120Hz OLED",
+      "Camera Control",
+      "48MP Fusion",
+      "4K 120fps"
+    ],
+    "specifications": {
+      "Display": "6.3\" Super Retina XDR 120Hz",
+      "Chip": "A18 Pro",
+      "Camera": "48MP + 48MP Ultra Wide + 12MP 5x",
+      "Storage": "128GB / 256GB / 512GB / 1TB",
+      "Battery": "3582mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1709763823519-80d2a4fb1e94?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 4800,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "ip-16promax",
+    "name": "iPhone 16 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 134999,
+    "originalPrice": 144900,
+    "description": "The ultimate iPhone. Largest display, A18 Pro, 5x tetraprism, and all-day battery.",
+    "features": [
+      "A18 Pro",
+      "6.9\" 120Hz OLED",
+      "Camera Control",
+      "5x Tetraprism",
+      "4K 120fps"
+    ],
+    "specifications": {
+      "Display": "6.9\" Super Retina XDR 120Hz",
+      "Chip": "A18 Pro",
+      "Camera": "48MP + 48MP UW + 12MP 5x",
+      "Storage": "256GB / 512GB / 1TB",
+      "Battery": "4685mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1709763823519-80d2a4fb1e94?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1696446701796-da612256986e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 5500,
+    "inStock": true,
+    "badge": "Editor's Choice"
+  },
+  {
+    "id": "ip-16e",
+    "name": "iPhone 16e",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 49999,
+    "originalPrice": 59900,
+    "description": "Apple Intelligence for everyone. A18 chip, Face ID, and a 48MP camera at an accessible price.",
+    "features": [
+      "A18",
+      "6.1\" OLED",
+      "Apple Intelligence",
+      "48MP Camera",
+      "Face ID"
+    ],
+    "specifications": {
+      "Display": "6.1\" Super Retina XDR",
+      "Chip": "A18",
+      "Camera": "48MP Single",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "3561mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1696446701796-da612256986e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1200,
+    "inStock": true
+  },
+  {
+    "id": "ip-17",
+    "name": "iPhone 17",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 82999,
+    "description": "The next generation iPhone with redesigned camera, A19 chip, and enhanced Apple Intelligence.",
+    "features": [
+      "A19 Bionic",
+      "6.3\" OLED",
+      "Apple Intelligence 2.0",
+      "48MP Camera",
+      "Slimmer Design"
+    ],
+    "specifications": {
+      "Display": "6.3\" Super Retina XDR",
+      "Chip": "A19 Bionic",
+      "Camera": "48MP + 12MP",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "TBD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1696844255726-51a5a88d4d0f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1696446701796-da612256986e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 800,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "ip-17pro",
+    "name": "iPhone 17 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 119999,
+    "description": "ProMotion display with next-gen A19 Pro chip, enhanced camera system, and titanium build.",
+    "features": [
+      "A19 Pro",
+      "6.3\" 120Hz OLED",
+      "Titanium",
+      "48MP Pro Camera",
+      "Camera Control 2.0"
+    ],
+    "specifications": {
+      "Display": "6.3\" Super Retina XDR 120Hz",
+      "Chip": "A19 Pro",
+      "Camera": "48MP + 48MP + 12MP 5x",
+      "Storage": "256GB / 512GB / 1TB",
+      "Battery": "TBD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1696844255726-51a5a88d4d0f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1709763823519-80d2a4fb1e94?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 600,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "ip-17promax",
+    "name": "iPhone 17 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 149999,
+    "description": "The pinnacle of iPhone. Largest display, most advanced camera, longest battery life ever.",
+    "features": [
+      "A19 Pro",
+      "6.9\" 120Hz OLED",
+      "Titanium",
+      "Pro Camera System",
+      "All-Day+"
+    ],
+    "specifications": {
+      "Display": "6.9\" Super Retina XDR 120Hz",
+      "Chip": "A19 Pro",
+      "Camera": "48MP + 48MP + 12MP 5x+",
+      "Storage": "256GB / 512GB / 1TB",
+      "Battery": "TBD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1696844255726-51a5a88d4d0f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1709763823519-80d2a4fb1e94?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 450,
+    "inStock": true,
+    "badge": "Flagship"
+  },
+  {
+    "id": "ip-18",
+    "name": "iPhone 18 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 134999,
+    "description": "The future of iPhone. Expected 2nm A20 chip, under-display Face ID, and revolutionary design.",
+    "features": [
+      "A20 Chip (2nm)",
+      "Under-Display Face ID",
+      "Periscope Zoom",
+      "Slimmest iPhone Ever",
+      "Coming 2026"
+    ],
+    "specifications": {
+      "Display": "6.3\" OLED (Expected)",
+      "Chip": "A20 (2nm)",
+      "Camera": "TBD",
+      "Storage": "TBD",
+      "Status": "Coming Soon"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1696844255726-51a5a88d4d0f?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1709763823519-80d2a4fb1e94?w=600&h=600&fit=crop"
+    ],
+    "rating": 0,
+    "reviewCount": 0,
+    "inStock": false,
+    "badge": "Coming Soon"
+  },
+  {
+    "id": "ss-s22",
+    "name": "Galaxy S22",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 39999,
+    "originalPrice": 72999,
+    "description": "Compact flagship with 50MP camera, Nightography, and Armor Aluminum frame.",
+    "features": [
+      "Snapdragon 8 Gen 1",
+      "6.1\" AMOLED 120Hz",
+      "50MP Camera",
+      "Nightography",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.1\" FHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 1",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "128GB / 256GB",
+      "Battery": "3700mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1628744876398-0a645a2bf4cc?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2800,
+    "inStock": true
+  },
+  {
+    "id": "ss-s22plus",
+    "name": "Galaxy S22+",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 49999,
+    "originalPrice": 84999,
+    "description": "Bigger display, bigger battery, and the same incredible Nightography camera.",
+    "features": [
+      "Snapdragon 8 Gen 1",
+      "6.6\" AMOLED 120Hz",
+      "50MP Camera",
+      "45W Fast Charging",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.6\" FHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 1",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "128GB / 256GB",
+      "Battery": "4500mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1679239872423-57563bf4f760?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1900,
+    "inStock": true
+  },
+  {
+    "id": "ss-s22ultra",
+    "name": "Galaxy S22 Ultra",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 62999,
+    "originalPrice": 109999,
+    "description": "S Pen built-in. 108MP camera. The Note experience lives on in the S22 Ultra.",
+    "features": [
+      "Snapdragon 8 Gen 1",
+      "6.8\" AMOLED 120Hz",
+      "S Pen Built-in",
+      "108MP Camera",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.8\" QHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 1",
+      "Camera": "108MP + 12MP + 10MP + 10MP",
+      "Storage": "128GB / 256GB / 512GB / 1TB",
+      "Battery": "5000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1707238206052-60f1af4e3b5a?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 4100,
+    "inStock": true
+  },
+  {
+    "id": "ss-s23",
+    "name": "Galaxy S23",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 52999,
+    "description": "Snapdragon 8 Gen 2 for Galaxy. 50MP camera with advanced Nightography.",
+    "features": [
+      "Snapdragon 8 Gen 2",
+      "6.1\" AMOLED 120Hz",
+      "50MP Camera",
+      "Nightography",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.1\" FHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 2 for Galaxy",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "128GB / 256GB",
+      "Battery": "3900mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1628744876398-0a645a2bf4cc?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 3200,
+    "inStock": true
+  },
+  {
+    "id": "ss-s23plus",
+    "name": "Galaxy S23+",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 62999,
+    "description": "Bigger screen, 45W charging, and the powerful Snapdragon 8 Gen 2 for Galaxy.",
+    "features": [
+      "Snapdragon 8 Gen 2",
+      "6.6\" AMOLED 120Hz",
+      "50MP Camera",
+      "45W Fast Charging",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.6\" FHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 2 for Galaxy",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "4700mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1628744876398-0a645a2bf4cc?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1679239872423-57563bf4f760?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "ss-s23ultra",
+    "name": "Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 84999,
+    "originalPrice": 124999,
+    "description": "200MP camera. S Pen. The most powerful Galaxy smartphone ever made.",
+    "features": [
+      "Snapdragon 8 Gen 2",
+      "6.8\" AMOLED 120Hz",
+      "200MP Camera",
+      "S Pen Built-in",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.8\" QHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 2 for Galaxy",
+      "Camera": "200MP + 12MP + 10MP + 10MP",
+      "Storage": "256GB / 512GB / 1TB",
+      "Battery": "5000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1628744876398-0a645a2bf4cc?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1707238206052-60f1af4e3b5a?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 5400,
+    "inStock": true,
+    "badge": "Best Seller"
+  },
+  {
+    "id": "ss-s24",
+    "name": "Galaxy S24",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 59999,
+    "description": "Galaxy AI is here. Circle to Search, Live Translate, and Note Assist built in.",
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "6.2\" AMOLED 120Hz",
+      "Galaxy AI",
+      "50MP Camera",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.2\" FHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 3 for Galaxy",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "128GB / 256GB",
+      "Battery": "4000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1679239872423-57563bf4f760?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1628744876398-0a645a2bf4cc?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 3500,
+    "inStock": true
+  },
+  {
+    "id": "ss-s24plus",
+    "name": "Galaxy S24+",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 69999,
+    "description": "Galaxy AI on a bigger screen. Enhanced display and all-day battery.",
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "6.7\" AMOLED 120Hz",
+      "Galaxy AI",
+      "50MP Camera",
+      "4900mAh"
+    ],
+    "specifications": {
+      "Display": "6.7\" QHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 3 for Galaxy",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "4900mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1679239872423-57563bf4f760?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1717121742188-89069a57f308?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2200,
+    "inStock": true
+  },
+  {
+    "id": "ss-s24ultra",
+    "name": "Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 99999,
+    "originalPrice": 129999,
+    "description": "Titanium frame. 200MP camera. S Pen. The most intelligent Galaxy ever.",
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "6.8\" AMOLED 120Hz",
+      "200MP Camera",
+      "S Pen",
+      "Galaxy AI"
+    ],
+    "specifications": {
+      "Display": "6.8\" QHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 3 for Galaxy",
+      "Camera": "200MP + 12MP + 10MP + 50MP",
+      "Storage": "256GB / 512GB / 1TB",
+      "Battery": "5000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1707238206052-60f1af4e3b5a?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1679239872423-57563bf4f760?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 6100,
+    "inStock": true,
+    "badge": "Top Rated"
+  },
+  {
+    "id": "ss-s25",
+    "name": "Galaxy S25",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 64999,
+    "description": "Snapdragon 8 Elite. All-new Galaxy AI. Redesigned with rounded edges and thinner bezels.",
+    "features": [
+      "Snapdragon 8 Elite",
+      "6.2\" AMOLED 120Hz",
+      "Galaxy AI 2.0",
+      "50MP Camera",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "6.2\" FHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "128GB / 256GB / 512GB",
+      "Battery": "4000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1717121742188-89069a57f308?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1679239872423-57563bf4f760?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2800,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "ss-s25plus",
+    "name": "Galaxy S25+",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 74999,
+    "description": "Snapdragon 8 Elite with bigger display and longer battery for power users.",
+    "features": [
+      "Snapdragon 8 Elite",
+      "6.7\" AMOLED 120Hz",
+      "Galaxy AI 2.0",
+      "50MP Camera",
+      "4900mAh"
+    ],
+    "specifications": {
+      "Display": "6.7\" QHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "Camera": "50MP + 12MP + 10MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "4900mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1717121742188-89069a57f308?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1707238206052-60f1af4e3b5a?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 1900,
+    "inStock": true
+  },
+  {
+    "id": "ss-s25ultra",
+    "name": "Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 109999,
+    "description": "Titanium. Snapdragon 8 Elite. 200MP. The smartest, most powerful Galaxy.",
+    "features": [
+      "Snapdragon 8 Elite",
+      "6.9\" AMOLED 120Hz",
+      "200MP Camera",
+      "S Pen",
+      "Galaxy AI 2.0"
+    ],
+    "specifications": {
+      "Display": "6.9\" QHD+ Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Elite for Galaxy",
+      "Camera": "200MP + 12MP + 10MP + 50MP",
+      "Storage": "256GB / 512GB / 1TB",
+      "Battery": "5000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1717121742188-89069a57f308?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1707238206052-60f1af4e3b5a?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 4200,
+    "inStock": true,
+    "badge": "Flagship"
+  },
+  {
+    "id": "ss-s26",
+    "name": "Galaxy S26",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 74999,
+    "description": "Next-generation Galaxy AI with Snapdragon 8 Elite Gen 2 and a slimmer design.",
+    "features": [
+      "Snapdragon 8 Elite Gen 2",
+      "6.2\" AMOLED 120Hz",
+      "Galaxy AI 3.0",
+      "New Camera System",
+      "Slimmer Design"
+    ],
+    "specifications": {
+      "Display": "6.2\" FHD+ AMOLED 2X (Expected)",
+      "Chip": "Snapdragon 8 Elite Gen 2",
+      "Camera": "TBD",
+      "Storage": "TBD",
+      "Status": "Expected 2026"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1717121742188-89069a57f308?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1679239872423-57563bf4f760?w=600&h=600&fit=crop"
+    ],
+    "rating": 0,
+    "reviewCount": 0,
+    "inStock": false,
+    "badge": "Coming Soon"
+  },
+  {
+    "id": "ss-s26ultra",
+    "name": "Galaxy S26 Ultra",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 134999,
+    "description": "The next Ultra. Expected S Pen, new 250MP sensor, and AI-first experience.",
+    "features": [
+      "Snapdragon 8 Elite Gen 2",
+      "6.9\" AMOLED 120Hz",
+      "250MP Camera (Expected)",
+      "S Pen",
+      "AI-First"
+    ],
+    "specifications": {
+      "Display": "6.9\" QHD+ AMOLED 2X (Expected)",
+      "Chip": "Snapdragon 8 Elite Gen 2",
+      "Camera": "TBD",
+      "Storage": "TBD",
+      "Status": "Expected 2026"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1717121742188-89069a57f308?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1707238206052-60f1af4e3b5a?w=600&h=600&fit=crop"
+    ],
+    "rating": 0,
+    "reviewCount": 0,
+    "inStock": false,
+    "badge": "Coming Soon"
+  },
+  {
+    "id": "op-11",
+    "name": "OnePlus 11",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 44999,
+    "originalPrice": 64999,
+    "description": "Snapdragon 8 Gen 2, 50MP Sony IMX890, and 100W SUPERVOOC charging.",
+    "features": [
+      "Snapdragon 8 Gen 2",
+      "6.7\" AMOLED 120Hz",
+      "50MP Sony IMX890",
+      "100W SUPERVOOC",
+      "Hasselblad Camera"
+    ],
+    "specifications": {
+      "Display": "6.7\" QHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Gen 2",
+      "Camera": "50MP + 48MP + 32MP",
+      "Storage": "128GB / 256GB",
+      "Battery": "5000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "op-11r",
+    "name": "OnePlus 11R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 29999,
+    "originalPrice": 39999,
+    "description": "Flagship performance at an incredible price. Snapdragon 8+ Gen 1 and 100W charging.",
+    "features": [
+      "Snapdragon 8+ Gen 1",
+      "6.7\" AMOLED 120Hz",
+      "50MP Camera",
+      "100W SUPERVOOC",
+      "Alert Slider"
+    ],
+    "specifications": {
+      "Display": "6.7\" FHD+ AMOLED 120Hz",
+      "Chip": "Snapdragon 8+ Gen 1",
+      "Camera": "50MP + 8MP + 2MP",
+      "Storage": "128GB / 256GB",
+      "Battery": "5000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1800,
+    "inStock": true
+  },
+  {
+    "id": "op-12",
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 54999,
+    "originalPrice": 64999,
+    "description": "Snapdragon 8 Gen 3, Hasselblad camera, 50W wireless charging, and IP65 rating.",
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "6.82\" AMOLED 120Hz",
+      "50MP Sony LYT-808",
+      "50W Wireless",
+      "IP65"
+    ],
+    "specifications": {
+      "Display": "6.82\" QHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Gen 3",
+      "Camera": "50MP + 48MP + 64MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "5400mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2800,
+    "inStock": true
+  },
+  {
+    "id": "op-12r",
+    "name": "OnePlus 12R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 32999,
+    "originalPrice": 39999,
+    "description": "Flagship killer reborn. Snapdragon 8 Gen 2, 100W charging, and stunning display.",
+    "features": [
+      "Snapdragon 8 Gen 2",
+      "6.78\" AMOLED 120Hz",
+      "50MP Sony IMX890",
+      "100W SUPERVOOC",
+      "5500mAh"
+    ],
+    "specifications": {
+      "Display": "6.78\" FHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Gen 2",
+      "Camera": "50MP + 8MP + 2MP",
+      "Storage": "128GB / 256GB",
+      "Battery": "5500mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2200,
+    "inStock": true
+  },
+  {
+    "id": "op-13",
+    "name": "OnePlus 13",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 59999,
+    "originalPrice": 69999,
+    "description": "Snapdragon 8 Elite, 50MP triple Hasselblad, IP69, and 6000mAh battery.",
+    "features": [
+      "Snapdragon 8 Elite",
+      "6.82\" AMOLED 120Hz",
+      "50MP Triple Hasselblad",
+      "IP69",
+      "6000mAh"
+    ],
+    "specifications": {
+      "Display": "6.82\" QHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Elite",
+      "Camera": "50MP + 50MP + 50MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "6000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1500,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "op-13r",
+    "name": "OnePlus 13R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 37999,
+    "description": "Snapdragon 8 Gen 3 at an unbeatable price. Flagship cameras and massive battery.",
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "6.78\" AMOLED 120Hz",
+      "50MP Camera",
+      "80W SUPERVOOC",
+      "6400mAh"
+    ],
+    "specifications": {
+      "Display": "6.78\" FHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Gen 3",
+      "Camera": "50MP + 8MP + 50MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "6400mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 1100,
+    "inStock": true
+  },
+  {
+    "id": "op-13s",
+    "name": "OnePlus 13S",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 44999,
+    "description": "Snapdragon 8 Elite with a compact design. Premium OnePlus experience in a smaller body.",
+    "features": [
+      "Snapdragon 8 Elite",
+      "6.32\" AMOLED 120Hz",
+      "50MP Camera",
+      "100W SUPERVOOC",
+      "Compact Design"
+    ],
+    "specifications": {
+      "Display": "6.32\" FHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Elite",
+      "Camera": "50MP + 8MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "5850mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 800,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "op-15",
+    "name": "OnePlus 15",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 54999,
+    "description": "The next flagship killer. Next-gen Snapdragon, Hasselblad cameras, and 7000mAh battery.",
+    "features": [
+      "Snapdragon 8 Elite Gen 2",
+      "6.8\" AMOLED 120Hz",
+      "Hasselblad Camera",
+      "7000mAh",
+      "120W SUPERVOOC"
+    ],
+    "specifications": {
+      "Display": "6.8\" QHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Elite Gen 2",
+      "Camera": "50MP + 50MP + 50MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "7000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop"
+    ],
+    "rating": 0,
+    "reviewCount": 0,
+    "inStock": false,
+    "badge": "Coming Soon"
+  },
+  {
+    "id": "op-15r",
+    "name": "OnePlus 15R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 34999,
+    "description": "Affordable flagship with next-gen chip and an enormous battery.",
+    "features": [
+      "Snapdragon 8 Elite Gen 2",
+      "6.7\" AMOLED 120Hz",
+      "50MP Camera",
+      "100W SUPERVOOC",
+      "7500mAh"
+    ],
+    "specifications": {
+      "Display": "6.7\" FHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Elite Gen 2",
+      "Camera": "50MP + 50MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "7500mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop"
+    ],
+    "rating": 0,
+    "reviewCount": 0,
+    "inStock": false,
+    "badge": "Coming Soon"
+  },
+  {
+    "id": "op-15t",
+    "name": "OnePlus 15T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "price": 42999,
+    "description": "Compact flagship with next-gen performance. The ultimate pocket powerhouse.",
+    "features": [
+      "Snapdragon 8 Elite Gen 2",
+      "6.3\" AMOLED 120Hz",
+      "50MP Camera",
+      "100W SUPERVOOC",
+      "Compact Flagship"
+    ],
+    "specifications": {
+      "Display": "6.3\" FHD+ LTPO AMOLED",
+      "Chip": "Snapdragon 8 Elite Gen 2",
+      "Camera": "50MP + 50MP",
+      "Storage": "256GB / 512GB",
+      "Battery": "6000mAh"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f51?w=600&h=600&fit=crop"
+    ],
+    "rating": 0,
+    "reviewCount": 0,
+    "inStock": false,
+    "badge": "Coming Soon"
+  },
+  {
+    "id": "aud-airpods2",
+    "name": "AirPods 2nd Gen",
+    "brand": "Apple",
+    "category": "headphones",
+    "price": 12999,
+    "originalPrice": 17900,
+    "description": "The original wireless earbuds. Easy setup, instant pairing, and great sound.",
+    "features": [
+      "H1 Chip",
+      "Siri",
+      "Bluetooth 5.0",
+      "Lightning Case",
+      "24h Battery"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Chip": "Apple H1",
+      "Battery": "5h / 24h with case",
+      "Charging": "Lightning",
+      "ANC": "No",
+      "Weight": "4g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 8900,
+    "inStock": true
+  },
+  {
+    "id": "aud-airpods3",
+    "name": "AirPods 3rd Gen",
+    "brand": "Apple",
+    "category": "headphones",
+    "price": 14999,
+    "originalPrice": 18900,
+    "description": "Personalized Spatial Audio, adaptive EQ, and a contoured design for all-day comfort.",
+    "features": [
+      "Apple H1",
+      "Spatial Audio",
+      "Adaptive EQ",
+      "MagSafe Case",
+      "IPX4",
+      "6h Battery"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Chip": "Apple H1",
+      "Battery": "6h / 30h with case",
+      "Charging": "MagSafe / Lightning / Qi",
+      "ANC": "No",
+      "Weight": "4.28g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1603765772033-b9c0ef15fd8e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 5200,
+    "inStock": true
+  },
+  {
+    "id": "aud-airpodspro2",
+    "name": "AirPods Pro 2nd Gen",
+    "brand": "Apple",
+    "category": "headphones",
+    "price": 19999,
+    "originalPrice": 24900,
+    "description": "Adaptive Audio, personalized Spatial Audio, and up to 2x more ANC than predecessor.",
+    "features": [
+      "Apple H2",
+      "Adaptive Audio",
+      "Personalized Spatial",
+      "USB-C MagSafe",
+      "IP54",
+      "Hearing Health"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Chip": "Apple H2",
+      "Battery": "6h / 30h with case",
+      "Charging": "MagSafe / USB-C / Qi",
+      "ANC": "Yes — Adaptive",
+      "Weight": "5.3g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 6800,
+    "inStock": true,
+    "badge": "Best Seller"
+  },
+  {
+    "id": "aud-airpodsmax",
+    "name": "AirPods Max",
+    "brand": "Apple",
+    "category": "headphones",
+    "price": 49999,
+    "originalPrice": 59900,
+    "description": "Over-ear perfection. Computational audio, 40mm driver, Active Noise Cancellation, and a premium build.",
+    "features": [
+      "Apple H2",
+      "Over-Ear",
+      "40mm Driver",
+      "ANC + Transparency",
+      "Spatial Audio",
+      "Digital Crown"
+    ],
+    "specifications": {
+      "Type": "Over-Ear Wireless",
+      "Chip": "Apple H2",
+      "Battery": "20 hours",
+      "Driver": "40mm Apple-designed",
+      "ANC": "Yes",
+      "Weight": "384.8g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 3100,
+    "inStock": true,
+    "badge": "Premium"
+  },
+  {
+    "id": "aud-airpods4",
+    "name": "AirPods 4",
+    "brand": "Apple",
+    "category": "headphones",
+    "price": 9999,
+    "description": "The new open-ear design with Apple H2 chip. Personalized Spatial Audio and USB-C.",
+    "features": [
+      "Apple H2",
+      "Open-Ear Design",
+      "Spatial Audio",
+      "USB-C",
+      "IP54",
+      "Siri"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless (Open)",
+      "Chip": "Apple H2",
+      "Battery": "5h / 30h with case",
+      "Charging": "USB-C",
+      "ANC": "No",
+      "Weight": "4.3g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2800,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "aud-airpods4anc",
+    "name": "AirPods 4 (ANC)",
+    "brand": "Apple",
+    "category": "headphones",
+    "price": 14999,
+    "description": "The open-ear design with Active Noise Cancellation. A first for open-fit earbuds.",
+    "features": [
+      "Apple H2",
+      "Open-Ear + ANC",
+      "Spatial Audio",
+      "USB-C",
+      "IP54",
+      "Adaptive Audio"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless (Open)",
+      "Chip": "Apple H2",
+      "Battery": "5h / 30h with case",
+      "Charging": "USB-C / MagSafe",
+      "ANC": "Yes",
+      "Weight": "4.3g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1603765772033-b9c0ef15fd8e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 1900,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "aud-oneplusbuds3",
+    "name": "OnePlus Buds 3",
+    "brand": "OnePlus",
+    "category": "headphones",
+    "price": 2999,
+    "description": "Hi-Res Audio with LHDC 5.0, 49dB ANC, and up to 44h total battery.",
+    "features": [
+      "LHDC 5.0",
+      "49dB ANC",
+      "12.4mm Driver",
+      "44h Battery",
+      "IP55",
+      "Bluetooth 5.3"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Driver": "12.4mm Titanium",
+      "Battery": "9h / 44h with case",
+      "ANC": "49dB Reduction",
+      "Charging": "USB-C (10min = 5h)",
+      "Weight": "4.7g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1600,
+    "inStock": true
+  },
+  {
+    "id": "aud-oneplusbuds4",
+    "name": "OnePlus Buds 4",
+    "brand": "OnePlus",
+    "category": "headphones",
+    "price": 3999,
+    "description": "Next-gen Hi-Res audio, smarter ANC, and up to 48h total battery life.",
+    "features": [
+      "Hi-Res LDAC",
+      "50dB ANC",
+      "13.4mm Driver",
+      "48h Battery",
+      "IP55",
+      "Google Fast Pair"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Driver": "13.4mm",
+      "Battery": "10h / 48h with case",
+      "ANC": "50dB Reduction",
+      "Charging": "USB-C",
+      "Weight": "4.5g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 900,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "aud-oneplusbudspro2",
+    "name": "OnePlus Buds Pro 2",
+    "brand": "OnePlus",
+    "category": "headphones",
+    "price": 7999,
+    "originalPrice": 9999,
+    "description": "Co-created with Dynaudio. Hi-Res LDAC, 48dB ANC, and smart adaptive noise cancelling.",
+    "features": [
+      "Dynaudio Tuned",
+      "48dB ANC",
+      "Hi-Res LDAC",
+      "11h Battery",
+      "Smart ANC",
+      "IP55"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Driver": "11mm + 6mm Dual",
+      "Battery": "11h / 39h with case",
+      "ANC": "48dB Smart",
+      "Charging": "USB-C / Qi",
+      "Weight": "4.9g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2100,
+    "inStock": true,
+    "badge": "Premium"
+  },
+  {
+    "id": "aud-oneplusbullets2",
+    "name": "OnePlus Bullets Wireless 2",
+    "brand": "OnePlus",
+    "category": "headphones",
+    "price": 1499,
+    "description": "Classic neckband design with magnetic controls, 14h battery, and fast charging.",
+    "features": [
+      "Magnetic Control",
+      "14h Battery",
+      "10mm Driver",
+      "Fast Charging",
+      "IP55",
+      "Bluetooth 5.0"
+    ],
+    "specifications": {
+      "Type": "Neckband Wireless",
+      "Driver": "10mm Dynamic",
+      "Battery": "14 hours",
+      "Charging": "USB-C (10min = 5h)",
+      "ANC": "No",
+      "Weight": "28g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 3400,
+    "inStock": true
+  },
+  {
+    "id": "aud-oneplusbullets3",
+    "name": "OnePlus Bullets Wireless 3",
+    "brand": "OnePlus",
+    "category": "headphones",
+    "price": 1999,
+    "description": "Upgraded neckband with 12.4mm driver, ANC, and 27h battery life.",
+    "features": [
+      "12.4mm Driver",
+      "ANC",
+      "27h Battery",
+      "Fast Charging",
+      "IP55",
+      "Bluetooth 5.2"
+    ],
+    "specifications": {
+      "Type": "Neckband Wireless",
+      "Driver": "12.4mm Titanium",
+      "Battery": "27 hours",
+      "Charging": "USB-C",
+      "ANC": "Yes (Basic)",
+      "Weight": "30g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "aud-realmebudsair3",
+    "name": "Realme Buds Air 3",
+    "brand": "Realme",
+    "category": "headphones",
+    "price": 1999,
+    "description": "42dB ANC, 30h battery, and 12.4mm bass driver at an incredible price.",
+    "features": [
+      "42dB ANC",
+      "12.4mm Driver",
+      "30h Battery",
+      "Gaming Mode",
+      "IPX5",
+      "Bluetooth 5.2"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Driver": "12.4mm Dynamic",
+      "Battery": "7h / 30h with case",
+      "ANC": "42dB",
+      "Charging": "USB-C",
+      "Weight": "4.4g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2800,
+    "inStock": true
+  },
+  {
+    "id": "aud-realmebudsair4",
+    "name": "Realme Buds Air 4",
+    "brand": "Realme",
+    "category": "headphones",
+    "price": 2999,
+    "description": "50dB ANC, Hi-Res LDAC, 46h battery — premium features at an entry price.",
+    "features": [
+      "50dB ANC",
+      "Hi-Res LDAC",
+      "12.4mm Driver",
+      "46h Battery",
+      "Bluetooth 5.4",
+      "IP55"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Driver": "12.4mm Mega Dynamic",
+      "Battery": "10h / 46h with case",
+      "ANC": "50dB",
+      "Charging": "USB-C (10min = 5h)",
+      "Weight": "4.3g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1800,
+    "inStock": true,
+    "badge": "Value King"
+  },
+  {
+    "id": "aud-realmebudsair5",
+    "name": "Realme Buds Air 5 Pro",
+    "brand": "Realme",
+    "category": "headphones",
+    "price": 3999,
+    "description": "50dB ANC with LDAC, 40h battery, and dual driver system for audiophile-grade sound.",
+    "features": [
+      "50dB ANC",
+      "LDAC Hi-Res",
+      "Dual Driver",
+      "40h Battery",
+      "Spatial Audio",
+      "Bluetooth 5.3"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Driver": "11mm + 6mm Dual",
+      "Battery": "8h / 40h with case",
+      "ANC": "50dB Smart",
+      "Charging": "USB-C",
+      "Weight": "4.8g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 1200,
+    "inStock": true
+  },
+  {
+    "id": "aud-realmebudswireless2",
+    "name": "Realme Buds Wireless 2",
+    "brand": "Realme",
+    "category": "headphones",
+    "price": 999,
+    "description": "22h battery, 11.2mm bass driver, and fast charging in a comfortable neckband.",
+    "features": [
+      "22h Battery",
+      "11.2mm Driver",
+      "Fast Charging",
+      "Magnetic Control",
+      "Bluetooth 5.2",
+      "IPX4"
+    ],
+    "specifications": {
+      "Type": "Neckband Wireless",
+      "Driver": "11.2mm Bass+",
+      "Battery": "22 hours",
+      "Charging": "USB-C (10min = 3h)",
+      "ANC": "No",
+      "Weight": "30g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 4100,
+    "inStock": true
+  },
+  {
+    "id": "aud-realmebudswireless3",
+    "name": "Realme Buds Wireless 3",
+    "brand": "Realme",
+    "category": "headphones",
+    "price": 1499,
+    "description": "13.6mm mega driver, ANC, 40h battery, and magnetic instant connection.",
+    "features": [
+      "13.6mm Driver",
+      "ANC",
+      "40h Battery",
+      "Magnetic Connect",
+      "Gaming Mode",
+      "IP55"
+    ],
+    "specifications": {
+      "Type": "Neckband Wireless",
+      "Driver": "13.6mm Mega Bass",
+      "Battery": "40 hours",
+      "Charging": "USB-C",
+      "ANC": "Yes (30dB)",
+      "Weight": "28g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2600,
+    "inStock": true,
+    "badge": "Popular"
+  },
+  {
+    "id": "aud-realmebudsair7",
+    "name": "Realme Buds Air 7",
+    "brand": "Realme",
+    "category": "headphones",
+    "price": 2999,
+    "description": "Next-gen earbuds with flagship 50dB ANC, Hi-Res audio, and 48h total battery.",
+    "features": [
+      "50dB ANC",
+      "Hi-Res Audio",
+      "12.4mm Driver",
+      "48h Battery",
+      "Bluetooth 5.4",
+      "IP55"
+    ],
+    "specifications": {
+      "Type": "In-Ear Wireless",
+      "Driver": "12.4mm",
+      "Battery": "10h / 48h with case",
+      "ANC": "50dB Adaptive",
+      "Charging": "USB-C",
+      "Weight": "4.2g per bud"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 900,
+    "inStock": true
+  },
+  {
+    "id": "wear-awse9",
+    "name": "Apple Watch SE (2nd Gen)",
+    "brand": "Apple",
+    "category": "wearables",
+    "price": 24999,
+    "description": "All the essentials. Health notifications, crash detection, and swimproof design at the most affordable Apple Watch price.",
+    "features": [
+      "S8 SiP",
+      "Heart Rate",
+      "Crash Detection",
+      "Sleep Tracking",
+      "Swimproof",
+      "watchOS 10"
+    ],
+    "specifications": {
+      "Display": "40mm / 44mm OLED",
+      "Chip": "S8 SiP",
+      "Battery": "18 hours",
+      "Water Resist": "WR50",
+      "Material": "Aluminum",
+      "Weight": "26.4g (40mm)"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 4200,
+    "inStock": true
+  },
+  {
+    "id": "wear-aw9",
+    "name": "Apple Watch Series 9",
+    "brand": "Apple",
+    "category": "wearables",
+    "price": 34999,
+    "originalPrice": 41900,
+    "description": "S9 chip, Double Tap gesture, brighter display, and carbon neutral options.",
+    "features": [
+      "S9 SiP",
+      "Double Tap",
+      "2000 nits",
+      "Always-On",
+      "Carbon Neutral",
+      "Precision Find My"
+    ],
+    "specifications": {
+      "Display": "41mm / 45mm Always-On",
+      "Chip": "S9 SiP",
+      "Battery": "18 hours",
+      "Water Resist": "WR50",
+      "Material": "Aluminum / Stainless",
+      "Weight": "38.7g (41mm)"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviewCount": 3600,
+    "inStock": true
+  },
+  {
+    "id": "wear-awultra2",
+    "name": "Apple Watch Ultra 2",
+    "brand": "Apple",
+    "category": "wearables",
+    "price": 74999,
+    "originalPrice": 89900,
+    "description": "49mm titanium, precision dual-frequency GPS, 36h battery, and the brightest Apple Watch display.",
+    "features": [
+      "49mm Titanium",
+      "Dual-Frequency GPS",
+      "36h Battery",
+      "100m Water Resist",
+      "Action Button",
+      "S9 SiP"
+    ],
+    "specifications": {
+      "Display": "49mm Always-On Retina",
+      "Chip": "S9 SiP",
+      "Battery": "36h / 72h Low Power",
+      "Water Resist": "WR100 / EN13319",
+      "Material": "Titanium",
+      "Weight": "61.4g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-af0de0ae72be?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviewCount": 1800,
+    "inStock": true,
+    "badge": "Premium"
+  },
+  {
+    "id": "wear-sswatch6",
+    "name": "Galaxy Watch 6",
+    "brand": "Samsung",
+    "category": "wearables",
+    "price": 22999,
+    "description": "Advanced sleep coaching, heart rate monitoring, and BIA body composition on a sapphire crystal display.",
+    "features": [
+      "Exynos W930",
+      "Sapphire Crystal",
+      "Sleep Coaching",
+      "Body Comp",
+      "Wear OS 4",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "1.3\" / 1.5\" Super AMOLED",
+      "Processor": "Exynos W930",
+      "Battery": "~40 hours",
+      "OS": "Wear OS 4 / One UI 5",
+      "Material": "Aluminum",
+      "Weight": "28.7g (40mm)"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "wear-sswatch6c",
+    "name": "Galaxy Watch 6 Classic",
+    "brand": "Samsung",
+    "category": "wearables",
+    "price": 29999,
+    "originalPrice": 35999,
+    "description": "The iconic rotating bezel meets sapphire crystal glass and advanced health intelligence.",
+    "features": [
+      "Rotating Bezel",
+      "Sapphire Crystal",
+      "Sleep Coaching",
+      "Body Comp",
+      "Wear OS 4",
+      "Stainless Steel"
+    ],
+    "specifications": {
+      "Display": "1.3\" / 1.5\" Super AMOLED",
+      "Processor": "Exynos W930",
+      "Battery": "~40 hours",
+      "OS": "Wear OS 4 / One UI 5",
+      "Material": "Stainless Steel",
+      "Weight": "59g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 1500,
+    "inStock": true
+  },
+  {
+    "id": "wear-sswatch7",
+    "name": "Galaxy Watch 7",
+    "brand": "Samsung",
+    "category": "wearables",
+    "price": 24999,
+    "description": "AI-powered health insights, dual-freq GPS, and the new BioActive Sensor for comprehensive tracking.",
+    "features": [
+      "Exynos W1000",
+      "Dual-Freq GPS",
+      "BioActive Sensor",
+      "AI Health",
+      "Wear OS 5",
+      "IP68"
+    ],
+    "specifications": {
+      "Display": "1.3\" / 1.5\" Super AMOLED",
+      "Processor": "Exynos W1000",
+      "Battery": "~40 hours",
+      "OS": "Wear OS 5 / One UI 6",
+      "Material": "Aluminum",
+      "Weight": "28.8g (40mm)"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 1200,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "wear-sswatchultra",
+    "name": "Galaxy Watch Ultra",
+    "brand": "Samsung",
+    "category": "wearables",
+    "price": 49999,
+    "description": "Samsung's most rugged watch. Titanium frame, 100m water resistance, and 60h battery.",
+    "features": [
+      "Titanium Frame",
+      "100m Water Resist",
+      "60h Battery",
+      "Dual-Freq GPS",
+      "Galaxy AI",
+      "Wear OS 5"
+    ],
+    "specifications": {
+      "Display": "1.5\" Super AMOLED (47mm)",
+      "Processor": "Exynos W1000",
+      "Battery": "60 hours",
+      "OS": "Wear OS 5 / One UI 6",
+      "Material": "Titanium",
+      "Weight": "60.5g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1546868871-af0de0ae72be?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviewCount": 800,
+    "inStock": true,
+    "badge": "Premium"
+  },
+  {
+    "id": "acc-tg-iphone13",
+    "name": "Tempered Glass — iPhone 13 / 13 Mini",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 199,
+    "description": "9H hardness tempered glass with oleophobic coating. Crystal clear, bubble-free install.",
+    "features": [
+      "9H Hardness",
+      "Oleophobic Coating",
+      "Bubble-Free",
+      "2.5D Edge"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1200,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone13pro",
+    "name": "Tempered Glass — iPhone 13 Pro / Pro Max",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 249,
+    "description": "Curved-edge 9H tempered glass designed for 13 Pro / Pro Max. Ultra-thin with maximum clarity.",
+    "features": [
+      "9H Hardness",
+      "Curved Edge",
+      "Oleophobic",
+      "Anti-Shatter"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Curved Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 980,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone14",
+    "name": "Tempered Glass — iPhone 14 / 14 Plus",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 199,
+    "description": "Precision-cut 9H tempered glass for iPhone 14. Fingerprint-resistant with flawless touch response.",
+    "features": [
+      "9H Hardness",
+      "Fingerprint Resistant",
+      "Ultra-Thin",
+      "Easy Install"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Flat Screen",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1500,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone14pro",
+    "name": "Tempered Glass — iPhone 14 Pro / Pro Max",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 249,
+    "description": "Ultra-clear 9H glass with Dynamic Island cutout. Oleophobic and scratch-resistant.",
+    "features": [
+      "9H Hardness",
+      "Dynamic Island Cutout",
+      "Oleophobic",
+      "Anti-Scratch"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.3mm",
+      "Coverage": "Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone15",
+    "name": "Tempered Glass — iPhone 15 / 15 Plus",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 249,
+    "description": "9H tempered glass with 2.5D rounded edges. Anti-fingerprint, crystal-clear transparency.",
+    "features": [
+      "9H Hardness",
+      "2.5D Rounded Edges",
+      "Anti-Fingerprint",
+      "HD Clear"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1800,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone15pro",
+    "name": "Tempered Glass — iPhone 15 Pro / Pro Max",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 349,
+    "description": "Premium 9H glass for iPhone 15 Pro series. Anti-glare option, razor-thin, maximum touch sensitivity.",
+    "features": [
+      "9H Hardness",
+      "Anti-Glare Option",
+      "0.2mm Ultra-Thin",
+      "Case Friendly"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.2mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2400,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone16",
+    "name": "Tempered Glass — iPhone 16 / 16 Plus",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 249,
+    "description": "Precision-fit 9H glass for iPhone 16. Enhanced clarity with hydrophobic nano-coating.",
+    "features": [
+      "9H Hardness",
+      "Hydrophobic Coating",
+      "Bubble-Free",
+      "Oleophobic"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1600,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone16pro",
+    "name": "Tempered Glass — iPhone 16 Pro / Pro Max",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 349,
+    "description": "Flagship 9H glass with anti-shatter film. Designed for the larger 16 Pro display.",
+    "features": [
+      "9H Hardness",
+      "Anti-Shatter Film",
+      "Full Cover",
+      "Oleophobic"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.25mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1400,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-iphone17",
+    "name": "Tempered Glass — iPhone 17 / 17 Air",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 349,
+    "description": "New-gen 9H glass engineered for the slim iPhone 17 lineup. Ultra-clear with nano-texture.",
+    "features": [
+      "9H Hardness",
+      "Nano-Texture",
+      "Ultra-Thin",
+      "Anti-Fingerprint"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.25mm",
+      "Coverage": "Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 500,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-tg-iphone17pro",
+    "name": "Tempered Glass — iPhone 17 Pro / Pro Max",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "Military-grade 9H glass for the latest Pro iPhones. Shatter-proof with self-healing nano layer.",
+    "features": [
+      "9H Hardness",
+      "Self-Healing Layer",
+      "Military-Grade",
+      "Anti-Shatter"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H+",
+      "Thickness": "0.2mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 400,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-tg-s22",
+    "name": "Tempered Glass — Samsung Galaxy S22",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 199,
+    "description": "9H curved-edge glass for Galaxy S22. Full-adhesive with UV option for perfect fit.",
+    "features": [
+      "9H Hardness",
+      "Curved Edge",
+      "Full Adhesive",
+      "UV Glue Option"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Curved Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 800,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-s23",
+    "name": "Tempered Glass — Samsung Galaxy S23",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 249,
+    "description": "Premium 9H glass for S23 series. Oleophobic coating, crystal-clear, and perfectly curved.",
+    "features": [
+      "9H Hardness",
+      "Oleophobic",
+      "Anti-Fingerprint",
+      "UV Cure"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Curved Edge-to-Edge",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1200,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-s24",
+    "name": "Tempered Glass — Samsung Galaxy S24",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 249,
+    "description": "Precision-cut 9H glass for S24. Edge-to-edge coverage with maximum touch sensitivity.",
+    "features": [
+      "9H Hardness",
+      "Edge-to-Edge",
+      "Touch Sensitive",
+      "Easy Align Tray"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1500,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-s24u",
+    "name": "Tempered Glass — Samsung Galaxy S24 Ultra",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "Premium UV-cured 9H glass for S24 Ultra. Anti-reflective, S Pen compatible, flawless clarity.",
+    "features": [
+      "9H Hardness",
+      "UV-Cured",
+      "Anti-Reflective",
+      "S Pen Compatible"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.25mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2000,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-s25",
+    "name": "Tempered Glass — Samsung Galaxy S25",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 349,
+    "description": "New-gen 9H glass for Galaxy S25. Ultra-thin with anti-glare matte finish option.",
+    "features": [
+      "9H Hardness",
+      "Anti-Glare Option",
+      "Ultra-Thin",
+      "Hydrophobic"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.25mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 800,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-tg-s25u",
+    "name": "Tempered Glass — Samsung Galaxy S25 Ultra",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 599,
+    "description": "Military-grade 9H glass for S25 Ultra. Self-healing nano-coating, S Pen optimized.",
+    "features": [
+      "9H Hardness+",
+      "Self-Healing",
+      "S Pen Optimized",
+      "Military-Grade"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H+",
+      "Thickness": "0.2mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 600,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-tg-op11",
+    "name": "Tempered Glass — OnePlus 11",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 199,
+    "description": "9H curved glass for OnePlus 11. Full adhesive, perfect alignment, and HD clarity.",
+    "features": [
+      "9H Hardness",
+      "Curved Edge",
+      "Full Adhesive",
+      "HD Clear"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Curved Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 700,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-op12",
+    "name": "Tempered Glass — OnePlus 12",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 249,
+    "description": "UV-cured 9H glass for OnePlus 12. Edge-to-edge coverage with anti-fingerprint coating.",
+    "features": [
+      "9H Hardness",
+      "UV-Cured",
+      "Anti-Fingerprint",
+      "Full Cover"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.3mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592815634658-9c2e0e05ef83?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 900,
+    "inStock": true
+  },
+  {
+    "id": "acc-tg-op13",
+    "name": "Tempered Glass — OnePlus 13",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 349,
+    "description": "Premium 9H glass for OnePlus 13. Ultra-thin with self-healing nano layer.",
+    "features": [
+      "9H Hardness",
+      "Self-Healing",
+      "Ultra-Thin",
+      "Hydrophobic"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.25mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 500,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-tg-rmx50",
+    "name": "Tempered Glass — Realme GT 5 / 6",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 149,
+    "description": "9H tempered glass for Realme GT series. Bubble-free, oleophobic, crystal clear.",
+    "features": [
+      "9H Hardness",
+      "Oleophobic",
+      "Bubble-Free",
+      "2.5D Edge"
+    ],
+    "specifications": {
+      "Material": "Tempered Glass 9H",
+      "Thickness": "0.33mm",
+      "Coverage": "Full Cover",
+      "Clarity": "99.9% HD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.2,
+    "reviewCount": 600,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-iphone15pro",
+    "name": "Clear Case — iPhone 15 Pro",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "Crystal-clear polycarbonate case with MagSafe. Shows off the titanium design while protecting.",
+    "features": [
+      "MagSafe Compatible",
+      "Crystal Clear",
+      "Anti-Yellowing",
+      "Raised Bezels"
+    ],
+    "specifications": {
+      "Material": "Polycarbonate + TPU",
+      "MagSafe": "Yes",
+      "Protection": "Raised Bezels + corners",
+      "Weight": "28g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1603313011140-fd5aa184a225?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 3200,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-iphone16pro",
+    "name": "Clear Case — iPhone 16 Pro",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "MagSafe clear case for iPhone 16 Pro. Anti-yellowing formula, military-grade drop protection.",
+    "features": [
+      "MagSafe Compatible",
+      "Anti-Yellowing",
+      "MIL-STD-810G",
+      "Wireless Charging"
+    ],
+    "specifications": {
+      "Material": "Polycarbonate + TPU",
+      "MagSafe": "Yes",
+      "Protection": "Military-Grade Drop",
+      "Weight": "30g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2800,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-iphone17pro",
+    "name": "Clear Case — iPhone 17 Pro",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 599,
+    "description": "Premium clear case for iPhone 17 Pro. MagSafe ring, anti-yellowing, and shock-absorbent corners.",
+    "features": [
+      "MagSafe",
+      "Anti-Yellowing",
+      "Shock Absorbent",
+      "Slim Profile"
+    ],
+    "specifications": {
+      "Material": "Polycarbonate + TPU",
+      "MagSafe": "Yes",
+      "Protection": "4 Corner Airbag",
+      "Weight": "26g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1603313011140-fd5aa184a225?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 800,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-cov-iphone15pro-silicone",
+    "name": "Silicone Case — iPhone 15 Pro",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 399,
+    "description": "Soft-touch silicone case with microfiber lining. Premium grip and full MagSafe support.",
+    "features": [
+      "Silicone Exterior",
+      "Microfiber Lining",
+      "MagSafe",
+      "Full Coverage"
+    ],
+    "specifications": {
+      "Material": "Liquid Silicone",
+      "Lining": "Microfiber",
+      "MagSafe": "Yes",
+      "Weight": "35g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-iphone16pro-silicone",
+    "name": "Silicone Case — iPhone 16 Pro",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 399,
+    "description": "Premium silicone with microfiber lining. Soft-touch finish, MagSafe, available in 8 colors.",
+    "features": [
+      "Soft-Touch Silicone",
+      "Microfiber Lining",
+      "MagSafe",
+      "8 Colors"
+    ],
+    "specifications": {
+      "Material": "Liquid Silicone",
+      "Lining": "Microfiber",
+      "MagSafe": "Yes",
+      "Weight": "32g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1603313011140-fd5aa184a225?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1900,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-iphone17pro-leather",
+    "name": "Leather Case — iPhone 17 Pro",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 999,
+    "description": "Genuine leather case with MagSafe. Ages beautifully with a rich patina over time.",
+    "features": [
+      "Genuine Leather",
+      "MagSafe",
+      "Microfiber Lining",
+      "Patina Finish"
+    ],
+    "specifications": {
+      "Material": "Genuine Leather",
+      "Lining": "Microfiber",
+      "MagSafe": "Yes",
+      "Weight": "40g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 600,
+    "inStock": true,
+    "badge": "Premium"
+  },
+  {
+    "id": "acc-cov-s24u",
+    "name": "Clear Case — Samsung Galaxy S24 Ultra",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "Anti-yellowing clear case for S24 Ultra. Full corner protection, S Pen accessible.",
+    "features": [
+      "Anti-Yellowing",
+      "Full Corner Protection",
+      "S Pen Access",
+      "Wireless Charging"
+    ],
+    "specifications": {
+      "Material": "Polycarbonate + TPU",
+      "Protection": "4 Corner Airbag",
+      "Wireless Charging": "Yes",
+      "Weight": "32g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1603313011140-fd5aa184a225?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2400,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-s25u",
+    "name": "Clear Case — Samsung Galaxy S25 Ultra",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 599,
+    "description": "Premium clear case for S25 Ultra. Military-grade protection with slim profile.",
+    "features": [
+      "MIL-STD-810G",
+      "Anti-Yellowing",
+      "Slim Profile",
+      "S Pen Ready"
+    ],
+    "specifications": {
+      "Material": "Polycarbonate + TPU",
+      "Protection": "Military-Grade",
+      "Wireless Charging": "Yes",
+      "Weight": "30g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-cov-s24u-silicone",
+    "name": "Silicone Case — Samsung Galaxy S24 Ultra",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 399,
+    "description": "Soft-touch silicone for S24 Ultra. Microfiber interior, precise cutouts.",
+    "features": [
+      "Soft Silicone",
+      "Microfiber Interior",
+      "Precise Cutouts",
+      "Wireless Charging"
+    ],
+    "specifications": {
+      "Material": "Liquid Silicone",
+      "Lining": "Microfiber",
+      "Wireless Charging": "Yes",
+      "Weight": "35g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1603313011140-fd5aa184a225?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1800,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-op12",
+    "name": "Clear Case — OnePlus 12",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 399,
+    "description": "Crystal-clear case for OnePlus 12. Anti-yellowing, raised camera ring protection.",
+    "features": [
+      "Anti-Yellowing",
+      "Camera Ring Protection",
+      "Wireless Charging",
+      "Slim"
+    ],
+    "specifications": {
+      "Material": "Polycarbonate + TPU",
+      "Protection": "Camera Ring + Corners",
+      "Weight": "28g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1200,
+    "inStock": true
+  },
+  {
+    "id": "acc-cov-op13",
+    "name": "Clear Case — OnePlus 13",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "Premium clear case for OnePlus 13. MagSafe-style ring, shock-absorbent, slim.",
+    "features": [
+      "Magnetic Ring",
+      "Shock Absorbent",
+      "Anti-Yellowing",
+      "Slim Profile"
+    ],
+    "specifications": {
+      "Material": "Polycarbonate + TPU",
+      "Protection": "4 Corner Airbag",
+      "Weight": "26g"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1603313011140-fd5aa184a225?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 600,
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "acc-cable-usbc1m",
+    "name": "USB-C to USB-C Cable (1m) — Fast Charge",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 299,
+    "description": "100W PD fast charge USB-C cable. Nylon braided, 1m length. Supports USB 2.0 data.",
+    "features": [
+      "100W PD",
+      "Nylon Braided",
+      "USB 2.0 Data",
+      "5A Current"
+    ],
+    "specifications": {
+      "Type": "USB-C to USB-C",
+      "Power": "100W PD 3.0",
+      "Length": "1 meter",
+      "Data": "USB 2.0 (480Mbps)",
+      "Material": "Nylon Braided",
+      "Current": "5A"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 3400,
+    "inStock": true
+  },
+  {
+    "id": "acc-cable-usbc1.5m",
+    "name": "USB-C to USB-C Cable (1.5m) — Fast Charge",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 399,
+    "description": "100W PD 1.5m USB-C cable. Braided nylon, reinforced stress points.",
+    "features": [
+      "100W PD",
+      "Nylon Braided",
+      "1.5m Length",
+      "Reinforced"
+    ],
+    "specifications": {
+      "Type": "USB-C to USB-C",
+      "Power": "100W PD 3.0",
+      "Length": "1.5 meters",
+      "Data": "USB 2.0",
+      "Material": "Nylon Braided",
+      "Current": "5A"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2100,
+    "inStock": true
+  },
+  {
+    "id": "acc-cable-usbc2m",
+    "name": "USB-C to USB-C Cable (2m) — Fast Charge",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "100W PD 2m USB-C cable. Premium braided, perfect for desk or bedside charging.",
+    "features": [
+      "100W PD",
+      "Nylon Braided",
+      "2m Length",
+      "Desk Friendly"
+    ],
+    "specifications": {
+      "Type": "USB-C to USB-C",
+      "Power": "100W PD 3.0",
+      "Length": "2 meters",
+      "Data": "USB 2.0",
+      "Material": "Nylon Braided",
+      "Current": "5A"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2800,
+    "inStock": true
+  },
+  {
+    "id": "acc-cable-lightning1m",
+    "name": "USB-C to Lightning Cable (1m) — Fast Charge",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 349,
+    "description": "MFi-certified USB-C to Lightning. 20W fast charge for iPhone, nylon braided.",
+    "features": [
+      "MFi Certified",
+      "20W PD",
+      "Nylon Braided",
+      "Original Chip"
+    ],
+    "specifications": {
+      "Type": "USB-C to Lightning",
+      "Power": "20W PD",
+      "Length": "1 meter",
+      "Certification": "MFi",
+      "Material": "Nylon Braided",
+      "Current": "3A"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2600,
+    "inStock": true
+  },
+  {
+    "id": "acc-cable-lightning2m",
+    "name": "USB-C to Lightning Cable (2m) — Fast Charge",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "MFi-certified 2m Lightning cable. Reinforced joints, braided, perfect for bedside.",
+    "features": [
+      "MFi Certified",
+      "20W PD",
+      "2m Length",
+      "Reinforced Joints"
+    ],
+    "specifications": {
+      "Type": "USB-C to Lightning",
+      "Power": "20W PD",
+      "Length": "2 meters",
+      "Certification": "MFi",
+      "Material": "Nylon Braided",
+      "Current": "3A"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1900,
+    "inStock": true
+  },
+  {
+    "id": "acc-cable-usbc-usb2m",
+    "name": "USB-C to USB-A Cable (2m) — Standard",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 299,
+    "description": "USB-C to USB-A 2m cable. Fast charge compatible, braided nylon, universal.",
+    "features": [
+      "USB-A to USB-C",
+      "Fast Charge",
+      "Nylon Braided",
+      "Universal"
+    ],
+    "specifications": {
+      "Type": "USB-C to USB-A",
+      "Power": "18W QC 3.0",
+      "Length": "2 meters",
+      "Data": "USB 2.0",
+      "Material": "Nylon Braided",
+      "Current": "3A"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1800,
+    "inStock": true
+  },
+  {
+    "id": "acc-cable-usbc3in1",
+    "name": "3-in-1 USB-C Cable (2m) — Lightning + Micro + C",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 599,
+    "description": "Three-in-one cable: USB-C, Lightning, and Micro-USB. 100W PD on USB-C, braided.",
+    "features": [
+      "3-in-1 Design",
+      "USB-C + Lightning + Micro",
+      "100W PD",
+      "Nylon Braided"
+    ],
+    "specifications": {
+      "Type": "3-in-1 Splitter",
+      "Power": "100W PD (USB-C)",
+      "Length": "2 meters",
+      "Materials": "Nylon Braided",
+      "Charging": "Simultaneous (shared power)",
+      "Current": "5A max"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 2200,
+    "inStock": true
+  },
+  {
+    "id": "acc-pb-realme10k",
+    "name": "Realme 10000mAh Power Bank",
+    "brand": "Realme",
+    "category": "accessories",
+    "price": 699,
+    "description": "Slim 10000mAh power bank with 33W Dart Charge. Dual output, lightweight 198g.",
+    "features": [
+      "10000mAh",
+      "33W Dart Charge",
+      "Dual Output",
+      "198g Lightweight",
+      "USB-C PD",
+      "Pass-Through"
+    ],
+    "specifications": {
+      "Capacity": "10000mAh / 37Wh",
+      "Output": "33W Max (USB-C) + USB-A",
+      "Input": "33W USB-C PD",
+      "Ports": "1x USB-C, 1x USB-A",
+      "Weight": "198g",
+      "Dimensions": "136 x 69 x 13mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2800,
+    "inStock": true
+  },
+  {
+    "id": "acc-pb-realme20k",
+    "name": "Realme 20000mAh Power Bank",
+    "brand": "Realme",
+    "category": "accessories",
+    "price": 1499,
+    "description": "20000mAh with 65W SuperVOOC charge. Can charge a laptop. Dual port output.",
+    "features": [
+      "20000mAh",
+      "65W SuperVOOC",
+      "Laptop Charging",
+      "Dual Output",
+      "LED Display",
+      "USB-C PD"
+    ],
+    "specifications": {
+      "Capacity": "20000mAh / 74Wh",
+      "Output": "65W Max (USB-C) + 22.5W (USB-A)",
+      "Input": "65W USB-C PD",
+      "Ports": "1x USB-C, 1x USB-A",
+      "Weight": "400g",
+      "Dimensions": "153 x 72 x 16mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1610464256483-07b6a8236b47?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1900,
+    "inStock": true
+  },
+  {
+    "id": "acc-pb-apple10k",
+    "name": "Apple MagSafe Battery Pack (10000mAh)",
+    "brand": "Apple",
+    "category": "accessories",
+    "price": 4999,
+    "description": "Premium MagSafe-compatible 10000mAh power bank. 15W wireless + 20W wired.",
+    "features": [
+      "10000mAh",
+      "15W MagSafe Wireless",
+      "20W USB-C Wired",
+      "Slim Design",
+      "LED Indicator",
+      "Pass-Through"
+    ],
+    "specifications": {
+      "Capacity": "10000mAh / 37Wh",
+      "Output": "15W Wireless + 20W USB-C",
+      "Input": "20W USB-C PD",
+      "Wireless": "MagSafe / Qi2",
+      "Weight": "195g",
+      "Dimensions": "105 x 68 x 12mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 1200,
+    "inStock": true,
+    "badge": "Premium"
+  },
+  {
+    "id": "acc-pb-mi10k",
+    "name": "Mi 10000mAh Power Bank 3",
+    "brand": "Xiaomi",
+    "category": "accessories",
+    "price": 599,
+    "description": "Budget king. 10000mAh with 22.5W fast charge. Dual output, slim body.",
+    "features": [
+      "10000mAh",
+      "22.5W Fast Charge",
+      "Dual Output",
+      "Slim Design",
+      "USB-C PD",
+      "Pass-Through"
+    ],
+    "specifications": {
+      "Capacity": "10000mAh / 37Wh",
+      "Output": "22.5W USB-C + USB-A",
+      "Input": "22.5W USB-C PD",
+      "Ports": "1x USB-C, 1x USB-A",
+      "Weight": "223g",
+      "Dimensions": "147 x 71 x 14mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1610464256483-07b6a8236b47?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 4200,
+    "inStock": true
+  },
+  {
+    "id": "acc-pb-mi20k",
+    "name": "Mi 20000mAh Power Bank 3",
+    "brand": "Xiaomi",
+    "category": "accessories",
+    "price": 1299,
+    "description": "20000mAh with 50W fast charge. Can charge laptops, two-device simultaneous.",
+    "features": [
+      "20000mAh",
+      "50W Fast Charge",
+      "Dual Output",
+      "Laptop Charging",
+      "LED Display",
+      "USB-C PD"
+    ],
+    "specifications": {
+      "Capacity": "20000mAh / 74Wh",
+      "Output": "50W USB-C + 22.5W USB-A",
+      "Input": "50W USB-C PD",
+      "Ports": "1x USB-C, 1x USB-A",
+      "Weight": "413g",
+      "Dimensions": "156 x 73 x 17mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 3100,
+    "inStock": true
+  },
+  {
+    "id": "acc-pb-boat10k",
+    "name": "Boat 10000mAh Power Bank",
+    "brand": "Boat",
+    "category": "accessories",
+    "price": 699,
+    "description": "10000mAh with 20W fast charge. Triple output, LED display, compact.",
+    "features": [
+      "10000mAh",
+      "20W Fast Charge",
+      "Triple Output",
+      "LED Display",
+      "USB-C PD",
+      "Compact"
+    ],
+    "specifications": {
+      "Capacity": "10000mAh / 37Wh",
+      "Output": "20W USB-C + dual USB-A",
+      "Input": "20W USB-C PD",
+      "Ports": "2x USB-A, 1x USB-C",
+      "Weight": "230g",
+      "Dimensions": "140 x 68 x 15mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1610464256483-07b6a8236b47?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1800,
+    "inStock": true
+  },
+  {
+    "id": "acc-pb-boat20k",
+    "name": "Boat 20000mAh Power Bank",
+    "brand": "Boat",
+    "category": "accessories",
+    "price": 1199,
+    "description": "20000mAh with 22.5W fast charge. Triple output, LED display, built-in flashlight.",
+    "features": [
+      "20000mAh",
+      "22.5W Fast Charge",
+      "Triple Output",
+      "LED Display",
+      "Flashlight",
+      "USB-C PD"
+    ],
+    "specifications": {
+      "Capacity": "20000mAh / 74Wh",
+      "Output": "22.5W USB-C + dual USB-A",
+      "Input": "22.5W USB-C PD",
+      "Ports": "2x USB-A, 1x USB-C",
+      "Weight": "420g",
+      "Dimensions": "155 x 73 x 17mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.3,
+    "reviewCount": 2200,
+    "inStock": true
+  },
+  {
+    "id": "acc-skin-matte-black",
+    "name": "Custom Skin — Matte Black",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 299,
+    "description": "Premium matte black vinyl skin. Precision-cut for any phone model. Residue-free removal.",
+    "features": [
+      "Matte Finish",
+      "Residue-Free",
+      "Scratch Protection",
+      "Precision-Cut"
+    ],
+    "specifications": {
+      "Material": "3M Vinyl",
+      "Finish": "Matte",
+      "Thickness": "0.2mm",
+      "Durability": "12+ months",
+      "Removal": "Residue-Free"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 3200,
+    "inStock": true
+  },
+  {
+    "id": "acc-skin-carbon-fiber",
+    "name": "Custom Skin — Carbon Fiber",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 399,
+    "description": "Textured carbon fiber vinyl skin. Anti-fingerprint, premium feel, custom fit.",
+    "features": [
+      "Carbon Fiber Texture",
+      "Anti-Fingerprint",
+      "Premium Feel",
+      "Custom Fit"
+    ],
+    "specifications": {
+      "Material": "3M Vinyl Carbon",
+      "Finish": "Textured",
+      "Thickness": "0.3mm",
+      "Durability": "18+ months",
+      "Removal": "Residue-Free"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2100,
+    "inStock": true,
+    "badge": "Popular"
+  },
+  {
+    "id": "acc-skin-wood",
+    "name": "Custom Skin — Wood Grain",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 399,
+    "description": "Natural wood grain vinyl skin. Realistic texture, precision-cut, residue-free.",
+    "features": [
+      "Wood Grain",
+      "Realistic Texture",
+      "Residue-Free",
+      "Scratch Guard"
+    ],
+    "specifications": {
+      "Material": "3M Vinyl Wood",
+      "Finish": "Wood Grain",
+      "Thickness": "0.2mm",
+      "Durability": "12+ months",
+      "Removal": "Residue-Free"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1800,
+    "inStock": true
+  },
+  {
+    "id": "acc-skin-silver-chrome",
+    "name": "Custom Skin — Silver Chrome",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "Mirror-like silver chrome skin. High-shine finish, fingerprint-resistant nano-coating.",
+    "features": [
+      "Chrome Mirror",
+      "High-Shine",
+      "Nano Coating",
+      "Premium"
+    ],
+    "specifications": {
+      "Material": "3M Chrome Vinyl",
+      "Finish": "Mirror Chrome",
+      "Thickness": "0.2mm",
+      "Durability": "12+ months",
+      "Removal": "Residue-Free"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1500,
+    "inStock": true
+  },
+  {
+    "id": "acc-skin-matte-white",
+    "name": "Custom Skin — Matte White",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 299,
+    "description": "Clean matte white vinyl. Anti-fingerprint, smooth finish, precision-cut.",
+    "features": [
+      "Matte White",
+      "Anti-Fingerprint",
+      "Smooth Finish",
+      "Precision-Cut"
+    ],
+    "specifications": {
+      "Material": "3M Vinyl",
+      "Finish": "Matte",
+      "Thickness": "0.2mm",
+      "Durability": "12+ months",
+      "Removal": "Residue-Free"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2400,
+    "inStock": true
+  },
+  {
+    "id": "acc-skin-duotone",
+    "name": "Custom Skin — Duotone Gradient",
+    "brand": "Batra Tech",
+    "category": "accessories",
+    "price": 499,
+    "description": "Gradient duotone vinyl skin. Choose from 6 colorways. Residue-free, custom cut.",
+    "features": [
+      "Gradient Finish",
+      "6 Colorways",
+      "Residue-Free",
+      "Premium Vinyl"
+    ],
+    "specifications": {
+      "Material": "3M Vinyl",
+      "Finish": "Matte Gradient",
+      "Thickness": "0.2mm",
+      "Durability": "12+ months",
+      "Removal": "Residue-Free"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop"
+    ],
+    "rating": 4.4,
+    "reviewCount": 1200,
+    "inStock": true
+  }
+]

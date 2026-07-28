@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #09090b;
+  color: #fafafa;
+}
+
+::selection {
+  background: rgba(202, 138, 4, 0.3);
+  color: #fef9c3;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ca8a04;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .text-gradient {
+    background: linear-gradient(135deg, #facc15, #ca8a04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-luxury {
+    background: linear-gradient(135deg, #09090b 0%, #18181b 50%, #09090b 100%);
+  }
+  .border-gold-subtle {
+    border-color: rgba(202, 138, 4, 0.15);
+  }
+  .backdrop-luxury {
+    backdrop-filter: blur(20px) saturate(180%);
+    background: rgba(9, 9, 11, 0.8);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.reveal-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hero-text-reveal > * {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: heroReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.hero-text-reveal > *:nth-child(1) { animation-delay: 0.1s; }
+.hero-text-reveal > *:nth-child(2) { animation-delay: 0.25s; }
+.hero-text-reveal > *:nth-child(3) { animation-delay: 0.4s; }
+.hero-text-reveal > *:nth-child(4) { animation-delay: 0.55s; }
+.hero-text-reveal > *:nth-child(5) { animation-delay: 0.7s; }
+
+@keyframes heroReveal {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-line-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: heroLineReveal 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes heroLineReveal {
+  0% { opacity: 0; transform: translateY(40px); filter: blur(8px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+.card-hover {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.5s ease, border-color 0.5s ease;
+}
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px -15px rgba(202, 138, 4, 0.15);
+}
+
+.magnetic-btn {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.magnetic-btn:hover {
+  transform: scale(1.03);
+}
+.magnetic-btn:active {
+  transform: scale(0.97);
+}
+
+.text-reveal-container {
+  overflow: hidden;
+}
+.text-reveal-inner {
+  transform: translateY(100%);
+  animation: textRevealUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes textRevealUp {
+  to { transform: translateY(0); }
+}
+
+.pulse-gold {
+  animation: pulseGold 2s ease-in-out infinite;
+}
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(202, 138, 4, 0.3); }
+  50% { box-shadow: 0 0 0 12px rgba(202, 138, 4, 0); }
+}
+
+.page-transition {
+  animation: pageIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.counter-animate {
+  animation: counterPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+@keyframes counterPop {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.line-draw {
+  width: 0;
+  animation: lineDraw 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+}
+@keyframes lineDraw {
+  to { width: 100%; }
+}
+
+.typing-cursor::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+  color: #ca8a04;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+img.img-zoom {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+img.img-zoom:hover {
+  transform: scale(1.08);
+}
+
+/* ── Loading animation ── */
+
+/* Step 1: "BATRA" reveals first with clip-path sweep */
+.ld-batra {
+  opacity: 0;
+  animation: ldBatraReveal 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+@keyframes ldBatraReveal {
+  0% { opacity: 0; clip-path: inset(0 100% 0 0); filter: blur(4px); }
+  100% { opacity: 1; clip-path: inset(0 0% 0 0); filter: blur(0); }
+}
+
+/* Step 2: BT logo falls from top with squash & bounce */
+.ld-bt-fall {
+  opacity: 0;
+  animation: ldBtFall 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.7s both;
+}
+@keyframes ldBtFall {
+  0% {
+    transform: translateY(-40vh) rotate(-10deg);
+    opacity: 0;
+  }
+  6% { opacity: 1; }
+  20% {
+    transform: translateY(10px) scaleX(1.35) scaleY(0.6) rotate(2deg);
+  }
+  30% {
+    transform: translateY(-50px) scaleX(0.9) scaleY(1.12) rotate(-5deg);
+  }
+  40% {
+    transform: translateY(6px) scaleX(1.15) scaleY(0.85) rotate(2deg);
+  }
+  50% {
+    transform: translateY(-18px) scaleX(0.95) scaleY(1.05) rotate(-1deg);
+  }
+  60% {
+    transform: translateY(3px) scaleX(1.05) scaleY(0.95);
+  }
+  68% {
+    transform: translateY(-5px) scaleX(0.98) scaleY(1.02);
+  }
+  76% {
+    transform: translateY(0) scaleX(1) scaleY(1) rotate(0);
+  }
+  85% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  92% {
+    transform: translateX(2px) rotate(1deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+  }
+}
+
+/* BT card squash deformation */
+.ld-bt-squash {
+  animation: ldBtSquash 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.7s both;
+}
+@keyframes ldBtSquash {
+  0% { border-radius: 50%; }
+  20% { border-radius: 18% 18% 42% 42%; }
+  30% { border-radius: 42% 42% 16% 16%; }
+  40% { border-radius: 20% 20% 35% 35%; }
+  50% { border-radius: 35% 35% 20% 20%; }
+  76% { border-radius: 12px; }
+  100% { border-radius: 12px; }
+}
+
+/* Step 3: "TECHNOLOGIES" appears */
+.ld-tech-row {
+  opacity: 0;
+  animation: ldTechReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) 1.5s both;
+}
+@keyframes ldTechReveal {
+  0% { opacity: 0; transform: translateY(12px); filter: blur(6px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+/* Step 4: Headphone drops onto T, bounces, then swings like hanging on a nail */
+.ld-headphone {
+  opacity: 0;
+  transform-origin: 65px 4px;
+  animation: ldHeadphoneDrop 2.8s cubic-bezier(0.22, 1, 0.36, 1) 2.0s both;
+}
+@keyframes ldHeadphoneDrop {
+  /* Drop from above */
+  0% {
+    opacity: 0;
+    transform: translateY(-280px) rotate(-5deg);
+  }
+  6% { opacity: 1; }
+  /* First impact — squash on T */
+  18% {
+    transform: translateY(6px) rotate(2deg);
+  }
+  /* Bounce up */
+  26% {
+    transform: translateY(-25px) rotate(-3deg);
+  }
+  /* Second smaller impact */
+  33% {
+    transform: translateY(3px) rotate(1deg);
+  }
+  /* Small bounce */
+  38% {
+    transform: translateY(-8px) rotate(-1.5deg);
+  }
+  /* Settle */
+  43% {
+    transform: translateY(1px) rotate(0.5deg);
+  }
+  47% {
+    transform: translateY(0) rotate(0deg);
+  }
+  /* Natural pendulum swing — decaying */
+  54% {
+    transform: rotate(6deg);
+  }
+  62% {
+    transform: rotate(-5deg);
+  }
+  70% {
+    transform: rotate(3.5deg);
+  }
+  77% {
+    transform: rotate(-2deg);
+  }
+  83% {
+    transform: rotate(1deg);
+  }
+  88% {
+    transform: rotate(-0.5deg);
+  }
+  93% {
+    transform: rotate(0.2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}

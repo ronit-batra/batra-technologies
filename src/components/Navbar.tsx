@@ -1,0 +1,206 @@
+"use client";
+
+import Link from "next/link";
+import { useState, useEffect, useRef } from "react";
+import { useCart } from "@/context/CartContext";
+import { useAuth } from "@/context/AuthContext";
+import { ShoppingCart, Search, Menu, X, User, LogOut, Package, ChevronDown, Plus, Check, Trash2, Crown, Heart, MessageSquare } from "lucide-react";
+
+export default function Navbar() {
+  const { totalItems } = useCart();
+  const { user, logout, accounts, currentIndex, switchAccount, removeAccount } = useAuth();
+  const isOwner = user?.email === "batraronit32@gmail.com" || user?.phone === "9351396757";
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const userMenuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (userMenuRef.current && !userMenuRef.current.contains(e.target as Node)) {
+        setUserMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const hasMultiple = accounts.length > 1;
+
+  return (
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-dark-950/90 backdrop-luxury border-b border-dark-800/50 py-3" : "bg-transparent py-5"}`}>
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-gold-400 to-gold-700 flex items-center justify-center text-dark-950 font-bold text-sm group-hover:shadow-lg group-hover:shadow-gold-500/20 transition-shadow">
+            BT
+          </div>
+          <div className="hidden sm:block">
+            <span className="text-lg font-display font-semibold text-white tracking-wide">Batra</span>
+            <span className="text-lg font-display font-light text-gold-400 ml-1">Technologies</span>
+          </div>
+        </Link>
+
+        <nav className="hidden lg:flex items-center gap-8">
+          {[
+            { label: "Home", href: "/" },
+            { label: "Products", href: "/products" },
+            { label: "About", href: "/about" },
+            { label: "Contact", href: "/contact" },
+          ].map((link) => (
+            <Link key={link.label} href={link.href} className="text-sm text-dark-300 hover:text-gold-400 transition-colors duration-300 tracking-wide uppercase font-medium">
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="flex items-center gap-4">
+          <Link href="/products?focus=search" className="hidden md:flex items-center justify-center w-9 h-9 rounded-lg hover:bg-dark-800 transition-colors group">
+            <Search size={18} className="text-dark-300 group-hover:text-gold-400 transition-colors" />
+          </Link>
+          {user && (
+            <Link href="/wishlist" className="hidden md:flex items-center justify-center w-9 h-9 rounded-lg hover:bg-dark-800 transition-colors group">
+              <Heart size={18} className="text-dark-300 group-hover:text-gold-400 transition-colors" />
+            </Link>
+          )}
+          {user ? (
+            <div ref={userMenuRef} className="relative hidden md:block">
+              <button onClick={() => setUserMenuOpen(!userMenuOpen)} className="flex items-center gap-2 text-sm text-dark-300 hover:text-gold-400 transition-colors">
+                <div className="w-8 h-8 rounded-full bg-gold-500/10 border border-gold-500/20 flex items-center justify-center">
+                  <span className="text-gold-400 font-semibold text-xs">{user.name.charAt(0).toUpperCase()}</span>
+                </div>
+                <span className="font-medium">{user.name.split(" ")[0]}</span>
+                <ChevronDown size={14} className={`transition-transform ${userMenuOpen ? "rotate-180" : ""}`} />
+              </button>
+              {userMenuOpen && (
+                <div className="absolute right-0 top-full mt-2 w-56 bg-dark-900 border border-dark-800 rounded-xl shadow-xl py-2 animate-fade-in-down">
+                  {hasMultiple && (
+                    <>
+                      <div className="px-4 py-2 border-b border-dark-800">
+                        <p className="text-[10px] text-dark-500 uppercase tracking-widest font-medium">Accounts</p>
+                      </div>
+                      {accounts.map((acc, i) => (
+                        <div key={acc.user.id} className={`flex items-center gap-3 px-4 py-2.5 text-sm transition-colors ${i === currentIndex ? "text-gold-400 bg-dark-800/50" : "text-dark-300 hover:bg-dark-800"}`}>
+                          <button onClick={() => { switchAccount(i); setUserMenuOpen(false); }} className="flex items-center gap-3 flex-1 text-left min-w-0">
+                            <div className="w-7 h-7 rounded-full bg-gold-500/10 border border-gold-500/20 flex items-center justify-center flex-shrink-0">
+                              <span className="text-gold-400 font-semibold text-[10px]">{acc.user.name.charAt(0).toUpperCase()}</span>
+                            </div>
+                            <div className="min-w-0">
+                              <p className="font-medium truncate">{acc.user.name.split(" ")[0]}</p>
+                              <p className="text-[11px] text-dark-500 truncate">{acc.user.email || acc.user.phone || ""}</p>
+                            </div>
+                            {i === currentIndex && <Check size={14} className="text-gold-400 flex-shrink-0 ml-auto" />}
+                          </button>
+                          {accounts.length > 1 && (
+                            <button onClick={() => { removeAccount(i); setUserMenuOpen(false); }} className="text-dark-600 hover:text-red-400 transition-colors flex-shrink-0 p-1">
+                              <Trash2 size={12} />
+                            </button>
+                          )}
+                        </div>
+                      ))}
+                      <div className="border-t border-dark-800 mt-1 pt-1" />
+                    </>
+                  )}
+                  <Link href="/login?add=1" className="flex items-center gap-3 px-4 py-2.5 text-sm text-dark-300 hover:text-gold-400 hover:bg-dark-800 transition-colors" onClick={() => setUserMenuOpen(false)}>
+                    <Plus size={16} /> Add Account
+                  </Link>
+                  <Link href="/account" className="flex items-center gap-3 px-4 py-2.5 text-sm text-dark-300 hover:text-gold-400 hover:bg-dark-800 transition-colors" onClick={() => setUserMenuOpen(false)}>
+                    <User size={16} /> My Account
+                  </Link>
+                  {isOwner && (
+                    <Link href="/admin/orders" className="flex items-center gap-3 px-4 py-2.5 text-sm text-gold-400 hover:text-gold-300 hover:bg-dark-800 transition-colors" onClick={() => setUserMenuOpen(false)}>
+                      <Crown size={16} /> Owner Dashboard
+                    </Link>
+                  )}
+                  <Link href="/queries" className="flex items-center gap-3 px-4 py-2.5 text-sm text-dark-300 hover:text-gold-400 hover:bg-dark-800 transition-colors" onClick={() => setUserMenuOpen(false)}>
+                    <MessageSquare size={16} /> My Queries
+                  </Link>
+                  <Link href="/wishlist" className="flex items-center gap-3 px-4 py-2.5 text-sm text-dark-300 hover:text-gold-400 hover:bg-dark-800 transition-colors" onClick={() => setUserMenuOpen(false)}>
+                    <Heart size={16} /> My Wishlist
+                  </Link>
+                  <Link href="/orders" className="flex items-center gap-3 px-4 py-2.5 text-sm text-dark-300 hover:text-gold-400 hover:bg-dark-800 transition-colors" onClick={() => setUserMenuOpen(false)}>
+                    <Package size={16} /> My Orders
+                  </Link>
+                  <button onClick={() => { logout(); setUserMenuOpen(false); }} className="flex items-center gap-3 px-4 py-2.5 text-sm text-dark-300 hover:text-red-400 hover:bg-dark-800 transition-colors w-full">
+                    <LogOut size={16} /> Sign Out
+                  </button>
+                </div>
+              )}
+            </div>
+          ) : (
+            <Link href="/login" className="hidden md:flex items-center gap-2 text-sm text-dark-300 hover:text-gold-400 transition-colors">
+              <User size={18} />
+            </Link>
+          )}
+          <Link href="/cart" className="relative group">
+            <ShoppingCart size={20} className="text-dark-300 group-hover:text-gold-400 transition-colors" />
+            {totalItems > 0 && (
+              <span className="absolute -top-2 -right-2 bg-gold-500 text-dark-950 text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center animate-scale-in">
+                {totalItems}
+              </span>
+            )}
+          </Link>
+          <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden text-dark-300 hover:text-gold-400 transition-colors">
+            {menuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+      </div>
+
+      {menuOpen && (
+        <div className="lg:hidden bg-dark-950/95 backdrop-luxury border-t border-dark-800/50 px-6 py-6 animate-fade-in-down">
+          <div className="space-y-1">
+            <Link href="/products?focus=search" className="flex items-center gap-3 py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+              <Search size={16} /> Search Products
+            </Link>
+            {["Home", "Products", "About", "Contact"].map((item) => (
+              <Link key={item} href={item === "Home" ? "/" : `/${item.toLowerCase()}`} className="block py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                {item}
+              </Link>
+            ))}
+            {user ? (
+              <>
+                <Link href="/account" className="block py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                  My Account
+                </Link>
+                {isOwner && (
+                  <Link href="/admin/orders" className="block py-3 text-gold-400 hover:text-gold-300 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                    Owner Dashboard
+                  </Link>
+                )}
+                <Link href="/orders" className="block py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                  My Orders
+                </Link>
+                <Link href="/wishlist" className="block py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                  My Wishlist
+                </Link>
+                <Link href="/queries" className="block py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                  My Queries
+                </Link>
+                <Link href="/login?add=1" className="block py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                  Add Account
+                </Link>
+                {hasMultiple && accounts.map((acc, i) => (
+                  <button key={acc.user.id} onClick={() => { switchAccount(i); setMenuOpen(false); }} className={`flex items-center justify-between w-full py-3 text-sm uppercase tracking-widest font-medium border-b border-dark-800/30 ${i === currentIndex ? "text-gold-400" : "text-dark-400"}`}>
+                    <span>{acc.user.name.split(" ")[0]} {i === currentIndex ? "(active)" : ""}</span>
+                  </button>
+                ))}
+                <button onClick={() => { logout(); setMenuOpen(false); }} className="block py-3 text-red-400 hover:text-red-300 transition-colors text-sm uppercase tracking-widest font-medium w-full text-left">
+                  Sign Out ({user.name.split(" ")[0]})
+                </button>
+              </>
+            ) : (
+              <Link href="/login" className="block py-3 text-dark-300 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest font-medium border-b border-dark-800/30" onClick={() => setMenuOpen(false)}>
+                Sign In
+              </Link>
+            )}
+          </div>
+        </div>
+      )}
+    </header>
+  );
+}

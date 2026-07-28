@@ -1,0 +1,22 @@
+import { Product } from "./types";
+
+const appleWatch = "/images/apple-watch.jpg";
+const galaxyWatch = "/images/galaxy-watch.jpg";
+
+export const wearableProducts: Product[] = [
+  // ── Apple Watch ──
+  { id: "wear-awse9", name: "Apple Watch SE (2nd Gen)", brand: "Apple", category: "wearables", price: 24999, description: "All the essentials. Health notifications, crash detection, and swimproof design at the most affordable Apple Watch price.", features: ["S8 SiP", "Heart Rate", "Crash Detection", "Sleep Tracking", "Swimproof", "watchOS 10"], specifications: { "Display": "40mm / 44mm OLED", "Chip": "S8 SiP", "Battery": "18 hours", "Water Resist": "WR50", "Material": "Aluminum", "Weight": "26.4g (40mm)" }, images: [appleWatch], rating: 4.6, reviewCount: 4200, inStock: true },
+
+  { id: "wear-aw9", name: "Apple Watch Series 9", brand: "Apple", category: "wearables", price: 34999, originalPrice: 41900, description: "S9 chip, Double Tap gesture, brighter display, and carbon neutral options.", features: ["S9 SiP", "Double Tap", "2000 nits", "Always-On", "Carbon Neutral", "Precision Find My"], specifications: { "Display": "41mm / 45mm Always-On", "Chip": "S9 SiP", "Battery": "18 hours", "Water Resist": "WR50", "Material": "Aluminum / Stainless", "Weight": "38.7g (41mm)" }, images: [appleWatch], rating: 4.7, reviewCount: 3600, inStock: true },
+
+  { id: "wear-awultra2", name: "Apple Watch Ultra 2", brand: "Apple", category: "wearables", price: 74999, originalPrice: 89900, description: "49mm titanium, precision dual-frequency GPS, 36h battery, and the brightest Apple Watch display.", features: ["49mm Titanium", "Dual-Frequency GPS", "36h Battery", "100m Water Resist", "Action Button", "S9 SiP"], specifications: { "Display": "49mm Always-On Retina", "Chip": "S9 SiP", "Battery": "36h / 72h Low Power", "Water Resist": "WR100 / EN13319", "Material": "Titanium", "Weight": "61.4g" }, images: [appleWatch], rating: 4.9, reviewCount: 1800, inStock: true, badge: "Premium" },
+
+  // ── Samsung Watch ──
+  { id: "wear-sswatch6", name: "Galaxy Watch 6", brand: "Samsung", category: "wearables", price: 22999, description: "Advanced sleep coaching, heart rate monitoring, and BIA body composition on a sapphire crystal display.", features: ["Exynos W930", "Sapphire Crystal", "Sleep Coaching", "Body Comp", "Wear OS 4", "IP68"], specifications: { "Display": "1.3\" / 1.5\" Super AMOLED", "Processor": "Exynos W930", "Battery": "~40 hours", "OS": "Wear OS 4 / One UI 5", "Material": "Aluminum", "Weight": "28.7g (40mm)" }, images: [galaxyWatch], rating: 4.5, reviewCount: 2100, inStock: true },
+
+  { id: "wear-sswatch6c", name: "Galaxy Watch 6 Classic", brand: "Samsung", category: "wearables", price: 29999, originalPrice: 35999, description: "The iconic rotating bezel meets sapphire crystal glass and advanced health intelligence.", features: ["Rotating Bezel", "Sapphire Crystal", "Sleep Coaching", "Body Comp", "Wear OS 4", "Stainless Steel"], specifications: { "Display": "1.3\" / 1.5\" Super AMOLED", "Processor": "Exynos W930", "Battery": "~40 hours", "OS": "Wear OS 4 / One UI 5", "Material": "Stainless Steel", "Weight": "59g" }, images: [galaxyWatch], rating: 4.6, reviewCount: 1500, inStock: true },
+
+  { id: "wear-sswatch7", name: "Galaxy Watch 7", brand: "Samsung", category: "wearables", price: 24999, description: "AI-powered health insights, dual-freq GPS, and the new BioActive Sensor for comprehensive tracking.", features: ["Exynos W1000", "Dual-Freq GPS", "BioActive Sensor", "AI Health", "Wear OS 5", "IP68"], specifications: { "Display": "1.3\" / 1.5\" Super AMOLED", "Processor": "Exynos W1000", "Battery": "~40 hours", "OS": "Wear OS 5 / One UI 6", "Material": "Aluminum", "Weight": "28.8g (40mm)" }, images: [galaxyWatch], rating: 4.6, reviewCount: 1200, inStock: true, badge: "New" },
+
+  { id: "wear-sswatchultra", name: "Galaxy Watch Ultra", brand: "Samsung", category: "wearables", price: 49999, description: "Samsung's most rugged watch. Titanium frame, 100m water resistance, and 60h battery.", features: ["Titanium Frame", "100m Water Resist", "60h Battery", "Dual-Freq GPS", "Galaxy AI", "Wear OS 5"], specifications: { "Display": "1.5\" Super AMOLED (47mm)", "Processor": "Exynos W1000", "Battery": "60 hours", "OS": "Wear OS 5 / One UI 6", "Material": "Titanium", "Weight": "60.5g" }, images: [galaxyWatch], rating: 4.8, reviewCount: 800, inStock: true, badge: "Premium" },
+];

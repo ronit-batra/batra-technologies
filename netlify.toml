@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# Proxy all /api/* requests to the Cloudflare Tunnel (your PC's backend)
+# Replace TUNNEL_URL below with your actual tunnel URL
+# Example: https://abc123.trycloudflare.com
+[[redirects]]
+  from = "/api/*"
+  to = "https://TUNNEL_URL/api/:splat"
+  status = 200
+  force = true
+
+# SPA fallback — all other routes serve index.html for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
