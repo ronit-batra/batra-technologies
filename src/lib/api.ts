@@ -1,9 +1,12 @@
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
+const NGROK_BYPASS = "ngrok-skip-browser-warning: true";
+
 export async function apiFetch(path: string, options: RequestInit = {}) {
   const token = typeof window !== "undefined" ? localStorage.getItem("bt-token") : null;
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
+    [NGROK_BYPASS.split(": ")[0]]: NGROK_BYPASS.split(": ")[1],
     ...((options.headers as Record<string, string>) || {}),
   };
   if (token) headers["Authorization"] = `Bearer ${token}`;
