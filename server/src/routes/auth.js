@@ -17,8 +17,8 @@ function validatePhone(phone) {
 router.post("/register", async (req, res) => {
   try {
     const { name, email, password, phone } = req.body;
-    if (!name || !password || !phone) {
-      return res.status(400).json({ error: "Name, password and phone are required" });
+    if (!name || !email || !password || !phone) {
+      return res.status(400).json({ error: "Name, email, password and phone are required" });
     }
     if (name.trim().length < 2) {
       return res.status(400).json({ error: "Name must be at least 2 characters" });
@@ -46,7 +46,7 @@ router.post("/register", async (req, res) => {
     }
     const hashed = await bcrypt.hash(password, 10);
     const user = await prisma.user.create({
-      data: { name, email: email || null, password: hashed, phone: normalizedPhone },
+      data: { name, email, password: hashed, phone: normalizedPhone },
     });
     const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, { expiresIn: "30d" });
     res.json({
@@ -91,6 +91,7 @@ router.post("/login", async (req, res) => {
       user: { id: user.id, name: user.name, email: user.email, phone: user.phone },
     });
   } catch (err) {
+    console.error("Login error:", err);
     res.status(500).json({ error: safeErrorMessage(err) });
   }
 });

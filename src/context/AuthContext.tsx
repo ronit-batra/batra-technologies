@@ -95,17 +95,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       saveAccounts(updated);
       setUser(data);
     } catch {
-      const updated = stored.filter((_, i) => i !== idx);
-      saveAccounts(updated);
-      const newIdx = Math.min(idx, updated.length - 1);
-      saveCurrentIndex(newIdx);
-      setAccounts(updated);
-      setCurrentIndex(newIdx);
-      if (updated[newIdx]) {
-        localStorage.setItem("bt-token", updated[newIdx].token);
-      } else {
-        localStorage.removeItem("bt-token");
-      }
+      setUser(null);
     } finally {
       setLoading(false);
     }

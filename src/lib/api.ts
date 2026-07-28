@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5000/api";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
 export async function apiFetch(path: string, options: RequestInit = {}) {
   const token = typeof window !== "undefined" ? localStorage.getItem("bt-token") : null;
@@ -8,19 +8,34 @@ export async function apiFetch(path: string, options: RequestInit = {}) {
   };
   if (token) headers["Authorization"] = `Bearer ${token}`;
 
-  const res = await fetch(`${API_URL}${path}`, { ...options, headers });
-  let data: any;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+
   try {
-    data = await res.json();
-  } catch {
-    throw new Error("Server returned an invalid response. Please try again.");
-  }
-  if (!res.ok) {
-    const err: any = new Error(data.error || "Request failed");
-    err.code = data.code;
+    const res = await fetch(`${API_URL}${path}`, { ...options, headers, signal: controller.signal });
+    clearTimeout(timeout);
+    let data: any;
+    try {
+      data = await res.json();
+    } catch {
+      throw new Error("Server returned an invalid response. Please try again.");
+    }
+    if (!res.ok) {
+      const err: any = new Error(data.error || "Request failed");
+      err.code = data.code;
+      throw err;
+    }
+    return data;
+  } catch (err: any) {
+    clearTimeout(timeout);
+    if (err.name === "AbortError") {
+      throw new Error("Request timed out. Please check your connection and try again.");
+    }
+    if (err instanceof TypeError && err.message === "Failed to fetch") {
+      throw new Error("Unable to connect to server. Please try again.");
+    }
     throw err;
   }
-  return data;
 }
 
 export function apiUrl(path: string) {

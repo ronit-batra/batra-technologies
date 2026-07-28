@@ -20,18 +20,23 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const isProduction = process.env.NODE_ENV === "production";
 
+app.set("trust proxy", 1);
+
 const allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:5000",
+  "https://batratechnologies.netlify.app",
   process.env.PRODUCTION_URL,
   process.env.TUNNEL_URL,
 ].filter(Boolean);
 
 app.use(cors({
-  origin: isProduction ? (origin, cb) => {
-    if (!origin || allowedOrigins.some(o => origin.startsWith(o))) return cb(null, true);
-    cb(null, true);
-  } : true,
+  origin: (origin, cb) => {
+    if (!origin) return cb(null, true);
+    if (allowedOrigins.some(o => origin.startsWith(o))) return cb(null, true);
+    cb(new Error("Not allowed by CORS"));
+  },
+  credentials: true,
 }));
 app.use(express.json({ limit: "10kb" }));
 
@@ -67,11 +72,11 @@ if (isProduction) {
 
 app.use((err, req, res, next) => {
   console.error("Unhandled error:", err);
-  res.status(500).json({ error: "An internal error occurred" });
+  res.status(500).json({ error: isProduction ? "An internal error occurred" : (err.message || "An internal error occurred") });
 });
 
 const server = app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT} (env: ${process.env.NODE_ENV || "unset"})`);
 });
 
 function shutdown() {
