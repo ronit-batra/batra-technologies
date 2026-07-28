@@ -7,7 +7,7 @@ echo    BATRA TECHNOLOGIES - Service Status
 echo ============================================
 echo.
 echo --- Backend (pm2) ---
-pm2 status
+"C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node.exe" "C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node_modules\pm2\bin\pm2" status
 echo.
 echo --- ngrok Tunnel ---
 curl -s http://127.0.0.1:4040/api/tunnels >nul 2>&1

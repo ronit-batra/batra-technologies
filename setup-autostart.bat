@@ -5,14 +5,14 @@ echo Setting up auto-start on Windows boot...
 set PATH=%PATH%;C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64
 
 :: Save pm2 process list
-pm2 save
+"C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node.exe" "C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node_modules\pm2\bin\pm2" save
 
 :: Create a startup batch
 (
 echo @echo off
 echo set PATH=%%PATH%%;C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64
-echo pm2 resurrect
-echo start "ngrok tunnel" cmd /k "ngrok start --all"
+echo "C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node.exe" "C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node_modules\pm2\bin\pm2" resurrect
+echo start "ngrok tunnel" cmd /k "C:\ngrok-bin\ngrok.exe start --all"
 ) > "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\batra-startup.bat"
 
 echo.

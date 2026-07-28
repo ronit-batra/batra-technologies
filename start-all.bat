@@ -9,14 +9,16 @@ set PATH=%PATH%;C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x
 
 :: Step 1: Start backend with pm2
 echo [1/2] Starting Backend with pm2 (auto-restart)...
-pm2 start ecosystem.config.js
-pm2 save
+"C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\npm.cmd" install pm2 -g
+C:\ngrok-bin\ngrok.exe version >nul 2>&1
+"C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node.exe" "C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node_modules\pm2\bin\pm2" start "E:\ronit\bca\e commerce\ecosystem.config.js"
+"C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node.exe" "C:\Users\batra\AppData\Local\Temp\node-fresh\node-v22.14.0-win-x64\node_modules\pm2\bin\pm2" save
 echo    Backend running on port 5000
 echo.
 
 :: Step 2: Start ngrok tunnel (permanent URL)
 echo [2/2] Starting ngrok tunnel (permanent URL)...
-start "ngrok tunnel" cmd /k "ngrok start --all"
+start "ngrok tunnel" cmd /k "C:\ngrok-bin\ngrok.exe start --all"
 echo    Permanent URL: https://mandarin-ramp-freely.ngrok-free.dev
 echo.
 
